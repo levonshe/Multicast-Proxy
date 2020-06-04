@@ -1,0 +1,97 @@
+debug level 0x41f70 (mld_proto,mld_timer,mld_member,timeout,pkt,interfaces,kernel,cache,asserts,(null))
+mldproxy version 2.1.0-alpha23 starting
+Interfaces world initialized...
+Getting vifs from mldproxy.conf
+Config: Got a phyint token.
+Config: IF: Config for interface eth0.
+Config: IF: Got upstream token.
+Config: IF: Got ratelimit token '0'.
+Config: IF: Got threshold token '1'.
+Config: IF: Got altnet token 10.0.0.0/8.
+Config: IF: Altnet: Parsed altnet to 10/8.
+Config: IF: Got altnet token 192.168.0.0/24.
+Config: IF: Altnet: Parsed altnet to 192.168.0/24.
+IF name : eth0
+Next ptr : (nil)
+Ratelimit : 0
+Threshold : 1
+State : 1
+Allowednet ptr : 0x8d12510
+Config: Got a phyint token.
+Config: IF: Config for interface eth1.
+Config: IF: Got downstream token.
+Config: IF: Got ratelimit token '0'.
+Config: IF: Got threshold token '1'.
+IF name : eth1
+Next ptr : (nil)
+Ratelimit : 0
+Threshold : 1
+State : 2
+Allowednet ptr : (nil)
+Config: Got a phyint token.
+Config: IF: Config for interface eth2.
+Config: IF: Got disabled token.
+IF name : eth2
+Next ptr : (nil)
+Ratelimit : 0
+Threshold : 1
+State : 0
+Allowednet ptr : (nil)
+65536 octets allocated for the emit/recept buffer mld6
+Buffer reception size for socket 6 : 262144 in 0 iterations
+IPV6_ROUTER_ALERT: Protocol not available
+setsockopt(IPV6_ROUTER_ALERT); Errno(92): Protocol not available
+setsockopt(IPV6_ROUTER_ALERT); Errno(92): Protocol not available
+MRT6_ADD_MIF: Address already in use
+eth0 comes up ,vif #0 now in service
+MRT6_ADD_MIF: Address already in use
+eth1 comes up ,vif #1 now in service
+sending multicast listener general query V2 on : eth1 
+==>(ff02::1) Query Sent With S flag OFF
+SENT Multicast Listener Query     from fe80::21b:21ff:fe91:b785 to ff02::1
+eth2 is DOWN; vif #2 out of service
+accepting multicast listener V2 report: src fe80::250:f1ff:fe08:b663,dst ff02::16
+processing (G,S)=ff1e::ffff,2001:250::6e62:6dff:fecc:752b
+The group does not exixt , trying to add it
+*** Created new SSM (Group,Source) = (ff1e::ffff,2001:250::6e62:6dff:fecc:752b) on interface eth1 *** : 
+*** Created new SSM (Group,Source) = (ff1e::ffff,2001:250::6e62:6dff:fecc:752b) on interface eth0 *** : 
+accept_listenerV2_report: group(ff05::1:3) has the site-local scope, discarding
+
+accept_listenerV2_report: group(ff02::1:2) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::1:ff00:0) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::2) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::fb) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::1:ff00:1) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::1:ff08:b663) has the link-local scope, discarding
+sending multicast listener general query V2 on : eth1 
+==>(ff02::1) Query Sent With S flag OFF
+SENT Multicast Listener Query     from fe80::21b:21ff:fe91:b785 to ff02::1
+accepting multicast listener V2 report: src fe80::250:f1ff:fe08:b663,dst ff02::16
+processing (G,S)=ff1e::ffff,2001:250::6e62:6dff:fecc:752b
+Stop rxmt timer of G,S =ff1e::ffff,(null) on eth1 
+ ALLOW_NEW_SOURCES : The Source/group already exist
+Stop rxmt timer of G,S =ff1e::ffff,2001:250::6e62:6dff:fecc:752b on eth1 
+accept_listenerV2_report: group(ff05::1:3) has the site-local scope, discarding
+
+accept_listenerV2_report: group(ff02::1:2) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::1:ff00:0) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::2) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::fb) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::1:ff00:1) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::1:ff08:b663) has the link-local scope, discarding
+sending multicast listener general query V2 on : eth1 
+==>(ff02::1) Query Sent With S flag OFF
+SENT Multicast Listener Query     from fe80::21b:21ff:fe91:b785 to ff02::1
+accepting multicast listener V2 report: src fe80::250:f1ff:fe08:b663,dst ff02::16
+processing (G,S)=ff1e::ffff,2001:250::6e62:6dff:fecc:752b
+Stop rxmt timer of G,S =ff1e::ffff,(null) on eth1 
+ ALLOW_NEW_SOURCES : The Source/group already exist
+Stop rxmt timer of G,S =ff1e::ffff,2001:250::6e62:6dff:fecc:752b on eth1 
+accept_listenerV2_report: group(ff05::1:3) has the site-local scope, discarding
+
+accept_listenerV2_report: group(ff02::1:2) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::1:ff00:0) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::2) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::fb) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::1:ff00:1) has the link-local scope, discarding
+accept_listenerV2_report: group(ff02::1:ff08:b663) has the link-local scope, discarding

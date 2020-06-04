@@ -1,0 +1,1974 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/lolshvax\/Mcast\/mcast-tools\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ADDCARRY	pim6.c	486;"	d	file:
+ADDRF_802	pimd.h	138;"	d
+ADDRF_APPLETALK	pimd.h	149;"	d
+ADDRF_ATM	pimd.h	143;"	d
+ADDRF_BANYAN	pimd.h	151;"	d
+ADDRF_BBN1822	pimd.h	137;"	d
+ADDRF_DECNET_IV	pimd.h	150;"	d
+ADDRF_E163	pimd.h	140;"	d
+ADDRF_E164	pimd.h	141;"	d
+ADDRF_E164_NSAP	pimd.h	152;"	d
+ADDRF_ETHERNET	pimd.h	139;"	d
+ADDRF_F69	pimd.h	144;"	d
+ADDRF_HDLC	pimd.h	136;"	d
+ADDRF_IPX	pimd.h	148;"	d
+ADDRF_IPv4	pimd.h	133;"	d
+ADDRF_IPv6	pimd.h	134;"	d
+ADDRF_NSAP	pimd.h	135;"	d
+ADDRF_RESERVED	pimd.h	132;"	d
+ADDRF_SMDS	pimd.h	142;"	d
+ADDRF_TELEX	pimd.h	145;"	d
+ADDRF_X121	pimd.h	146;"	d
+ADDRF_X25	pimd.h	147;"	d
+ADDRT_IPv6	pimd.h	155;"	d
+ADVANCE	routesock.c	124;"	d	file:
+ADVANCE	routesock.c	126;"	d	file:
+ALLOW_NEW_SOURCES	mld6v2.h	108;"	d
+ALL_MCAST_GROUPS_LENGTH	defs.h	72;"	d
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/lolshvax\/Mcast\/mcast-tools\/missing --run tar$/;"	m
+AM_RECURSIVE_TARGETS	Makefile	/^AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\$/;"	m
+ANY	cfparse.c	/^     ANY = 288,$/;"	e	enum:yytokentype	file:
+ANY	cfparse.c	277;"	d	file:
+ANY	cfparse.h	/^     ANY = 288,$/;"	e	enum:yytokentype
+ANY	cfparse.h	120;"	d
+ARRAYSIZE	var.h	58;"	d
+ASSERTTIME	cfparse.c	/^     ASSERTTIME = 301,$/;"	e	enum:yytokentype	file:
+ASSERTTIME	cfparse.c	290;"	d	file:
+ASSERTTIME	cfparse.h	/^     ASSERTTIME = 301,$/;"	e	enum:yytokentype
+ASSERTTIME	cfparse.h	133;"	d
+ASSERT_TIMEOUT	config.h	67;"	d
+ATOX	var.h	41;"	d
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/lolshvax\/Mcast\/mcast-tools\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/lolshvax\/Mcast\/mcast-tools\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/lolshvax\/Mcast\/mcast-tools\/missing --run automake-1.11$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+BEGIN	cftoken.c	126;"	d	file:
+BLOCK_OLD_SOURCES	mld6v2.h	109;"	d
+BOOTSTRAP_RP	config.h	56;"	d
+BSRA_MASKLEN	cfparse.c	/^      BSRA_PRIORITY, BSRA_TIME, BSRA_MASKLEN, IN6_PREFIX, THRESA_RATE,$/;"	e	enum:__anon10	file:
+BSRA_PRIORITY	cfparse.c	/^      BSRA_PRIORITY, BSRA_TIME, BSRA_MASKLEN, IN6_PREFIX, THRESA_RATE,$/;"	e	enum:__anon10	file:
+BSRA_TIME	cfparse.c	/^      BSRA_PRIORITY, BSRA_TIME, BSRA_MASKLEN, IN6_PREFIX, THRESA_RATE,$/;"	e	enum:__anon10	file:
+BUFADDRSIZE	var.h	50;"	d
+CALLOC	var.h	37;"	d
+CALLOUT_H	callout.h	51;"	d
+CANDBSR	cfparse.c	/^     CANDBSR = 281,$/;"	e	enum:yytokentype	file:
+CANDBSR	cfparse.c	270;"	d	file:
+CANDBSR	cfparse.h	/^     CANDBSR = 281,$/;"	e	enum:yytokentype
+CANDBSR	cfparse.h	113;"	d
+CANDIDATE_RP	config.h	54;"	d
+CANDRP	cfparse.c	/^     CANDRP = 280,$/;"	e	enum:yytokentype	file:
+CANDRP	cfparse.c	269;"	d	file:
+CANDRP	cfparse.h	/^     CANDRP = 280,$/;"	e	enum:yytokentype
+CANDRP	cfparse.h	112;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CHANGE_TO_EXCLUDE_MODE	mld6v2.h	107;"	d
+CHANGE_TO_INCLUDE_MODE	mld6v2.h	106;"	d
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_H	config.h	49;"	d
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/include\/config.h$/;"	m
+COPY_TIMER	timer.h	61;"	d
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CRC_H	crc.h	44;"	d
+CREATE	mrt.h	77;"	d
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DATATHRES	cfparse.c	/^     DATATHRES = 290,$/;"	e	enum:yytokentype	file:
+DATATHRES	cfparse.c	279;"	d	file:
+DATATHRES	cfparse.h	/^     DATATHRES = 290,$/;"	e	enum:yytokentype
+DATATHRES	cfparse.h	122;"	d
+DATATIME	cfparse.c	/^     DATATIME = 298,$/;"	e	enum:yytokentype	file:
+DATATIME	cfparse.c	287;"	d	file:
+DATATIME	cfparse.h	/^     DATATIME = 298,$/;"	e	enum:yytokentype
+DATATIME	cfparse.h	130;"	d
+DATA_RATE_CHECK_INTERVAL	pimd.h	111;"	d
+DATA_THRESHOLD	config.h	58;"	d
+DATA_TIMEOUT	config.h	64;"	d
+DEBUG_ALL	debug.h	123;"	d
+DEBUG_ASSERT	debug.h	118;"	d
+DEBUG_CONF	debug.h	121;"	d
+DEBUG_DEFAULT	debug.h	126;"	d
+DEBUG_DVMRP	debug.h	69;"	d
+DEBUG_DVMRP_DETAIL	debug.h	68;"	d
+DEBUG_DVMRP_PEER	debug.h	66;"	d
+DEBUG_DVMRP_PRUNE	debug.h	64;"	d
+DEBUG_DVMRP_ROUTE	debug.h	65;"	d
+DEBUG_DVMRP_TIMER	debug.h	67;"	d
+DEBUG_H	debug.h	51;"	d
+DEBUG_IF	debug.h	90;"	d
+DEBUG_KERN	debug.h	91;"	d
+DEBUG_MEMBER	debug.h	77;"	d
+DEBUG_MFC	debug.h	92;"	d
+DEBUG_MLD	debug.h	78;"	d
+DEBUG_MLD_MEMBER	debug.h	76;"	d
+DEBUG_MLD_PROTO	debug.h	74;"	d
+DEBUG_MLD_TIMER	debug.h	75;"	d
+DEBUG_MRT	debug.h	114;"	d
+DEBUG_NEIGHBORS	debug.h	115;"	d
+DEBUG_PIM	debug.h	108;"	d
+DEBUG_PIM_ASSERT	debug.h	101;"	d
+DEBUG_PIM_BOOTSTRAP	debug.h	100;"	d
+DEBUG_PIM_CAND_RP	debug.h	102;"	d
+DEBUG_PIM_DETAIL	debug.h	107;"	d
+DEBUG_PIM_HELLO	debug.h	97;"	d
+DEBUG_PIM_JOIN_PRUNE	debug.h	99;"	d
+DEBUG_PIM_MRT	debug.h	103;"	d
+DEBUG_PIM_REGISTER	debug.h	98;"	d
+DEBUG_PIM_RPF	debug.h	105;"	d
+DEBUG_PIM_TIMER	debug.h	104;"	d
+DEBUG_PKT	debug.h	85;"	d
+DEBUG_RPF	debug.h	106;"	d
+DEBUG_RSRR	debug.h	93;"	d
+DEBUG_SWITCH	debug.h	124;"	d
+DEBUG_TIMEOUT	debug.h	84;"	d
+DEBUG_TIMER	debug.h	116;"	d
+DEBUG_TRACE	debug.h	83;"	d
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I..\/include$/;"	m
+DEFAULT_LOCAL_METRIC	pimd.h	495;"	d
+DEFAULT_LOCAL_PREF	pimd.h	494;"	d
+DEFAULT_METRIC	vif.h	70;"	d
+DEFAULT_PHY_RATE_LIMIT	pimd.h	125;"	d
+DEFAULT_REG_RATE_LIMIT	pimd.h	126;"	d
+DEFAULT_SOURCE_METRIC	config.h	59;"	d
+DEFAULT_SOURCE_PREFERENCE	config.h	60;"	d
+DEFAULT_TIMER_INTERVAL	timer.h	54;"	d
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS_H	defs.h	50;"	d
+DEFVIFSTAT	cfparse.c	/^     DEFVIFSTAT = 302$/;"	e	enum:yytokentype	file:
+DEFVIFSTAT	cfparse.c	291;"	d	file:
+DEFVIFSTAT	cfparse.h	/^     DEFVIFSTAT = 302$/;"	e	enum:yytokentype
+DEFVIFSTAT	cfparse.h	134;"	d
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISABLE	cfparse.c	/^     DISABLE = 268,$/;"	e	enum:yytokentype	file:
+DISABLE	cfparse.c	257;"	d	file:
+DISABLE	cfparse.h	/^     DISABLE = 268,$/;"	e	enum:yytokentype
+DISABLE	cfparse.h	100;"	d
+DISTCLEANFILES	Makefile	/^DISTCLEANFILES = cftoken.c cfparse.c cfparse.h$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = README $(noinst_HEADERS) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(pim6sd_SOURCES)$/;"	m
+DIST_SUBDIRS	Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DONT_CREATE	mrt.h	78;"	d
+DP	cfparse-defs.h	32;"	d
+DP	cfparse-defs.h	38;"	d
+DelVif	mld6_proto.c	/^DelVif(arg)$/;"	f
+DelVifV2	mld6v2_proto.c	/^DelVifV2(arg)$/;"	f	file:
+DeleteTimer	mld6_proto.c	/^DeleteTimer(id)$/;"	f	file:
+DeleteTimerV1compat	mld6v2_proto.c	/^DeleteTimerV1compat(id)$/;"	f
+ECHO	cftoken.c	1137;"	d	file:
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ELSE	defs.h	58;"	d
+EMPTY	config.h	52;"	d
+ENABLE	cfparse.c	/^     ENABLE = 267,$/;"	e	enum:yytokentype	file:
+ENABLE	cfparse.c	256;"	d	file:
+ENABLE	cfparse.h	/^     ENABLE = 267,$/;"	e	enum:yytokentype
+ENABLE	cfparse.h	99;"	d
+EOB_ACT_CONTINUE_SCAN	cftoken.c	169;"	d	file:
+EOB_ACT_END_OF_FILE	cftoken.c	170;"	d	file:
+EOB_ACT_LAST_MATCH	cftoken.c	171;"	d	file:
+EOS	cfparse.c	/^     EOS = 258,$/;"	e	enum:yytokentype	file:
+EOS	cfparse.c	247;"	d	file:
+EOS	cfparse.h	/^     EOS = 258,$/;"	e	enum:yytokentype
+EOS	cfparse.h	90;"	d
+EQUAL	config.h	69;"	d
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXTRA_DIST	Makefile	/^EXTRA_DIST = ${man1_MANS} ${man5_MANS} ${man8_MANS} pim6sd.conf.sample ssm.conf.sample pim6stat BUGS.TODO BUGS.V6 LICENSE.mrouted LICENSE.pim6sd LICENSE.pimd README README.SSM README.first$/;"	m
+FALSE	defs.h	57;"	d
+FIRE_TIMER	timer.h	64;"	d
+FLEXINT_H	cftoken.c	30;"	d	file:
+FLEX_BETA	cftoken.c	14;"	d	file:
+FLEX_SCANNER	cftoken.c	9;"	d	file:
+FREE_MRTENTRY	mrt.h	101;"	d
+GETNAMEINFO	var.h	54;"	d
+GET_BYTE	pimd.h	342;"	d
+GET_EGADDR6	pimd.h	449;"	d
+GET_ESADDR6	pimd.h	426;"	d
+GET_EUADDR6	pimd.h	473;"	d
+GET_HOSTLONG	pimd.h	381;"	d
+GET_HOSTSHORT	pimd.h	345;"	d
+GET_NETLONG	pimd.h	402;"	d
+GET_NETLONG	pimd.h	422;"	d
+GET_NETSHORT	pimd.h	362;"	d
+GET_NETSHORT	pimd.h	377;"	d
+GOT_SIGALRM	main.c	115;"	d	file:
+GOT_SIGHUP	main.c	112;"	d	file:
+GOT_SIGINFO	main.c	117;"	d	file:
+GOT_SIGINT	main.c	111;"	d	file:
+GOT_SIGUSR1	main.c	113;"	d	file:
+GOT_SIGUSR2	main.c	114;"	d	file:
+GRANULARITY	cfparse.c	/^     GRANULARITY = 296,$/;"	e	enum:yytokentype	file:
+GRANULARITY	cfparse.c	285;"	d	file:
+GRANULARITY	cfparse.h	/^     GRANULARITY = 296,$/;"	e	enum:yytokentype
+GRANULARITY	cfparse.h	128;"	d
+GRANULARITY	config.h	62;"	d
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GROUP_PREFIX	config.h	55;"	d
+GRPPFX	cfparse.c	/^     GRPPFX = 277,$/;"	e	enum:yytokentype	file:
+GRPPFX	cfparse.c	266;"	d	file:
+GRPPFX	cfparse.h	/^     GRPPFX = 277,$/;"	e	enum:yytokentype
+GRPPFX	cfparse.h	109;"	d
+HEADERS	Makefile	/^HEADERS = $(noinst_HEADERS)$/;"	m
+HELLOPERIOD	cfparse.c	/^     HELLOPERIOD = 295,$/;"	e	enum:yytokentype	file:
+HELLOPERIOD	cfparse.c	284;"	d	file:
+HELLOPERIOD	cfparse.h	/^     HELLOPERIOD = 295,$/;"	e	enum:yytokentype
+HELLOPERIOD	cfparse.h	127;"	d
+HELLO_PERIOD	config.h	61;"	d
+ICMP6_MEMBERSHIP_QUERY	mld6.h	63;"	d
+ICMP6_MEMBERSHIP_REDUCTION	mld6.h	65;"	d
+ICMP6_MEMBERSHIP_REPORT	mld6.h	64;"	d
+IFA_FLAG	cfparse.c	/^enum {IFA_FLAG, IFA_PREFERENCE, IFA_METRIC, RPA_PRIORITY, RPA_TIME,$/;"	e	enum:__anon10	file:
+IFA_LLQI	cfparse.c	/^      IFA_ROBUST, IFA_QUERY_INT, IFA_QUERY_INT_RESP, IFA_MLD_VERSION, IFA_LLQI,$/;"	e	enum:__anon10	file:
+IFA_METRIC	cfparse.c	/^enum {IFA_FLAG, IFA_PREFERENCE, IFA_METRIC, RPA_PRIORITY, RPA_TIME,$/;"	e	enum:__anon10	file:
+IFA_MLD_VERSION	cfparse.c	/^      IFA_ROBUST, IFA_QUERY_INT, IFA_QUERY_INT_RESP, IFA_MLD_VERSION, IFA_LLQI,$/;"	e	enum:__anon10	file:
+IFA_PREFERENCE	cfparse.c	/^enum {IFA_FLAG, IFA_PREFERENCE, IFA_METRIC, RPA_PRIORITY, RPA_TIME,$/;"	e	enum:__anon10	file:
+IFA_PRIORITY	cfparse.c	/^      RPA_STATICADDR, STATICRT, IFA_PRIORITY$/;"	e	enum:__anon10	file:
+IFA_QUERY_INT	cfparse.c	/^      IFA_ROBUST, IFA_QUERY_INT, IFA_QUERY_INT_RESP, IFA_MLD_VERSION, IFA_LLQI,$/;"	e	enum:__anon10	file:
+IFA_QUERY_INT_RESP	cfparse.c	/^      IFA_ROBUST, IFA_QUERY_INT, IFA_QUERY_INT_RESP, IFA_MLD_VERSION, IFA_LLQI,$/;"	e	enum:__anon10	file:
+IFA_ROBUST	cfparse.c	/^      IFA_ROBUST, IFA_QUERY_INT, IFA_QUERY_INT_RESP, IFA_MLD_VERSION, IFA_LLQI,$/;"	e	enum:__anon10	file:
+IFNAME	cfparse.c	/^     IFNAME = 266,$/;"	e	enum:yytokentype	file:
+IFNAME	cfparse.c	255;"	d	file:
+IFNAME	cfparse.h	/^     IFNAME = 266,$/;"	e	enum:yytokentype
+IFNAME	cfparse.h	98;"	d
+IF_CLR_MASK	vif.h	87;"	d
+IF_DEBUG	debug.h	55;"	d
+IF_ISEMPTY	vif.h	85;"	d
+IF_MERGE	vif.h	94;"	d
+IF_NOT_TIMEOUT	timer.h	73;"	d
+IF_SAME	vif.h	86;"	d
+IF_TIMEOUT	timer.h	72;"	d
+IF_TIMER_NOT_SET	timer.h	63;"	d
+IF_TIMER_SET	timer.h	62;"	d
+IN6ADDR_LINKLOCAL_ALLNODES_INIT	mld6.h	135;"	d
+IN6_IS_ADDR_EMBEDDED_RP	pim6.h	64;"	d
+IN6_PREFIX	cfparse.c	/^      BSRA_PRIORITY, BSRA_TIME, BSRA_MASKLEN, IN6_PREFIX, THRESA_RATE,$/;"	e	enum:__anon10	file:
+INET6_H	inet6.h	50;"	d
+INET_NTOP	var.h	51;"	d
+INITIAL	cftoken.c	1035;"	d	file:
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INT16_MAX	cftoken.c	72;"	d	file:
+INT16_MIN	cftoken.c	63;"	d	file:
+INT32_MAX	cftoken.c	75;"	d	file:
+INT32_MIN	cftoken.c	66;"	d	file:
+INT8_MAX	cftoken.c	69;"	d	file:
+INT8_MIN	cftoken.c	60;"	d	file:
+INTERVAL	cfparse.c	/^     INTERVAL = 292,$/;"	e	enum:yytokentype	file:
+INTERVAL	cfparse.c	281;"	d	file:
+INTERVAL	cfparse.h	/^     INTERVAL = 292,$/;"	e	enum:yytokentype
+INTERVAL	cfparse.h	124;"	d
+IP6OPT_ROUTER_ALERT	mld6.c	145;"	d	file:
+IP6OPT_ROUTER_ALERT	mld6.h	130;"	d
+IP6OPT_RTALERT	mld6.h	126;"	d
+IP6OPT_RTALERT_LEN	mld6.h	131;"	d
+IP6OPT_RTALERT_MLD	mld6.h	125;"	d
+IPV6_VERSION	pim6_proto.c	147;"	d	file:
+IPV6_VERSION_MASK	pim6_proto.c	150;"	d	file:
+ISSET	var.h	39;"	d
+JAN_1970	trace.h	192;"	d
+JAN_1970	trace.h	194;"	d
+JOIN_PRUNE_PERIOD	config.h	63;"	d
+JPPERIOD	cfparse.c	/^     JPPERIOD = 297,$/;"	e	enum:yytokentype	file:
+JPPERIOD	cfparse.c	286;"	d	file:
+JPPERIOD	cfparse.h	/^     JPPERIOD = 297,$/;"	e	enum:yytokentype
+JPPERIOD	cfparse.h	129;"	d
+KERN_H	kern.h	50;"	d
+LALIGN	var.h	44;"	d
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LESSTHANLLQI	vif.h	/^enum { LESSTHANLLQI = 1, MORETHANLLQI };$/;"	e	enum:__anon7
+LEX	Makefile	/^LEX = flex$/;"	m
+LEXCOMPILE	Makefile	/^LEXCOMPILE = $(LEX) $(LFLAGS) $(AM_LFLAGS)$/;"	m
+LEXLIB	Makefile	/^LEXLIB = -lfl$/;"	m
+LEX_OUTPUT_ROOT	Makefile	/^LEX_OUTPUT_ROOT = lex.yy$/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = -ly -ll -lfl $/;"	m
+LINK	Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
+LLQI	cfparse.c	/^     LLQI = 276,$/;"	e	enum:yytokentype	file:
+LLQI	cfparse.c	265;"	d	file:
+LLQI	cfparse.h	/^     LLQI = 276,$/;"	e	enum:yytokentype
+LLQI	cfparse.h	108;"	d
+LOGGING	cfparse.c	/^     LOGGING = 259,$/;"	e	enum:yytokentype	file:
+LOGGING	cfparse.c	248;"	d	file:
+LOGGING	cfparse.h	/^     LOGGING = 259,$/;"	e	enum:yytokentype
+LOGGING	cfparse.h	91;"	d
+LOGLEV	cfparse.c	/^     LOGLEV = 260,$/;"	e	enum:yytokentype	file:
+LOGLEV	cfparse.c	249;"	d	file:
+LOGLEV	cfparse.h	/^     LOGLEV = 260,$/;"	e	enum:yytokentype
+LOGLEV	cfparse.h	92;"	d
+LOG_MAX_MSGS	debug.h	57;"	d
+LOG_SHUT_UP	debug.h	58;"	d
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/lolshvax\/Mcast\/mcast-tools\/missing --run makeinfo$/;"	m
+MANS	Makefile	/^MANS = $(man1_MANS) $(man5_MANS) $(man8_MANS)$/;"	m
+MASKLEN	cfparse.c	/^     MASKLEN = 284,$/;"	e	enum:yytokentype	file:
+MASKLEN	cfparse.c	273;"	d	file:
+MASKLEN	cfparse.h	/^     MASKLEN = 284,$/;"	e	enum:yytokentype
+MASKLEN	cfparse.h	116;"	d
+MASKLEN_TO_MASK6	pimd.h	312;"	d
+MASKLEN_TO_MASK6	trace.h	176;"	d
+MASK_TO_MASKLEN6	pimd.h	296;"	d
+MASK_TO_VAL	trace.h	165;"	d
+MAX3	var.h	35;"	d
+MAX_JOIN_LIST_SIZE	pimd.h	505;"	d
+MAX_JP_MESSAGE_POOL_NUMBER	pimd.h	504;"	d
+MAX_JP_MESSAGE_SIZE	pimd.h	503;"	d
+MAX_PRUNE_LIST_SIZE	pimd.h	506;"	d
+METRIC	cfparse.c	/^     METRIC = 270,$/;"	e	enum:yytokentype	file:
+METRIC	cfparse.c	259;"	d	file:
+METRIC	cfparse.h	/^     METRIC = 270,$/;"	e	enum:yytokentype
+METRIC	cfparse.h	102;"	d
+MFC_MOVE_FORCE	mrt.h	81;"	d
+MFC_UPDATE_FORCE	mrt.h	82;"	d
+MINHLIM	mld6.h	55;"	d
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MLD6V2_H	mld6v2.h	43;"	d
+MLD6V2_PROTO_H	mld6v2_proto.h	43;"	d
+MLD6_DEFAULT_LAST_LISTENER_QUERY_INTERVAL	mld6_proto.h	69;"	d
+MLD6_DEFAULT_QUERY_INTERVAL	mld6_proto.h	67;"	d
+MLD6_DEFAULT_QUERY_RESPONSE_INTERVAL	mld6_proto.h	68;"	d
+MLD6_DEFAULT_ROBUSTNESS_VARIABLE	mld6_proto.h	66;"	d
+MLD6_DEFAULT_VERSION	mld6_proto.h	65;"	d
+MLD6_H	mld6.h	50;"	d
+MLD6_LAST_LISTENER_QUERY_COUNT	mld6_proto.h	89;"	d
+MLD6_LAST_LISTENER_QUERY_INTERVAL	mld6_proto.h	76;"	d
+MLD6_LAST_LISTENER_QUERY_TIMER	mld6_proto.h	90;"	d
+MLD6_LISTENER_INTERVAL	mld6_proto.h	86;"	d
+MLD6_OLDER_VERSION_HOST_PRESENT	mld6_proto.h	97;"	d
+MLD6_OTHER_QUERIER_PRESENT_INTERVAL	mld6_proto.h	94;"	d
+MLD6_PROTO_H	mld6_proto.h	50;"	d
+MLD6_QUERY_INTERVAL	mld6_proto.h	74;"	d
+MLD6_QUERY_RESPONSE_INTERVAL	mld6_proto.h	75;"	d
+MLD6_ROBUSTNESS_VARIABLE	mld6_proto.h	73;"	d
+MLD6_STARTUP_QUERY_COUNT	mld6_proto.h	71;"	d
+MLD6_STARTUP_QUERY_INTERVAL	mld6_proto.h	70;"	d
+MLD6_TIMER_SCALE	mld6_proto.h	78;"	d
+MLDV2_LISTENER_REPORT	mld6.h	71;"	d
+MLDV2_LISTENER_REPORT	mld6v2.h	48;"	d
+MLD_HDRLEN	mld6v2.h	86;"	d
+MLD_LISTENER_DONE	mld6.h	66;"	d
+MLD_LISTENER_DONE	mld6.h	91;"	d
+MLD_LISTENER_QUERY	mld6.h	89;"	d
+MLD_LISTENER_REPORT	mld6.h	90;"	d
+MLD_MADDR_REC_HDRLEN	mld6v2.h	87;"	d
+MLD_MAXSOURCES	mld6v2.h	90;"	d
+MLD_MINLEN	mld6v2.h	84;"	d
+MLD_MTRACE	mld6.h	121;"	d
+MLD_MTRACE	mld6.h	93;"	d
+MLD_MTRACE_RESP	mld6.h	118;"	d
+MLD_MTRACE_RESP	mld6.h	92;"	d
+MLD_PREPEND	mld6v2.h	88;"	d
+MLD_QRV	mld6v2.h	64;"	d
+MLD_SFLAG	mld6v2.h	97;"	d
+MLD_VERSION	cfparse.c	/^     MLD_VERSION = 275,$/;"	e	enum:yytokentype	file:
+MLD_VERSION	cfparse.c	264;"	d	file:
+MLD_VERSION	cfparse.h	/^     MLD_VERSION = 275,$/;"	e	enum:yytokentype
+MLD_VERSION	cfparse.h	107;"	d
+MLDv1	mld6v2_proto.h	48;"	d
+MLDv2	mld6v2_proto.h	47;"	d
+MODE_IS_EXCLUDE	mld6v2.h	105;"	d
+MODE_IS_INCLUDE	mld6v2.h	104;"	d
+MORETHANLLQI	vif.h	/^enum { LESSTHANLLQI = 1, MORETHANLLQI };$/;"	e	enum:__anon7
+MRTF_1ST	mrt.h	66;"	d
+MRTF_ASSERTED	mrt.h	72;"	d
+MRTF_IIF_REGISTER	mrt.h	67;"	d
+MRTF_KERNEL_CACHE	mrt.h	69;"	d
+MRTF_MFC_CLONE_SG	mrt.h	75;"	d
+MRTF_NEW	mrt.h	65;"	d
+MRTF_NULL_OIF	mrt.h	70;"	d
+MRTF_PMBR	mrt.h	74;"	d
+MRTF_REGISTER	mrt.h	68;"	d
+MRTF_REG_SUPP	mrt.h	71;"	d
+MRTF_RP	mrt.h	64;"	d
+MRTF_SG	mrt.h	73;"	d
+MRTF_SPT	mrt.h	62;"	d
+MRTF_WC	mrt.h	63;"	d
+MRT_H	mrt.h	58;"	d
+NBRBITS	vif.h	81;"	d
+NBRTYPE	vif.h	80;"	d
+NBR_VERS	trace.h	198;"	d
+NEXTADDR	routesock.c	188;"	d	file:
+NHANDLERS	main.c	121;"	d	file:
+NO	cfparse.c	/^     NO = 263,$/;"	e	enum:yytokentype	file:
+NO	cfparse.c	252;"	d	file:
+NO	cfparse.h	/^     NO = 263,$/;"	e	enum:yytokentype
+NO	cfparse.h	95;"	d
+NOLISTENER	cfparse.c	/^     NOLISTENER = 271,$/;"	e	enum:yytokentype	file:
+NOLISTENER	cfparse.c	260;"	d	file:
+NOLISTENER	cfparse.h	/^     NOLISTENER = 271,$/;"	e	enum:yytokentype
+NOLISTENER	cfparse.h	103;"	d
+NOLOGLEV	cfparse.c	/^     NOLOGLEV = 261,$/;"	e	enum:yytokentype	file:
+NOLOGLEV	cfparse.c	250;"	d	file:
+NOLOGLEV	cfparse.h	/^     NOLOGLEV = 261,$/;"	e	enum:yytokentype
+NOLOGLEV	cfparse.h	93;"	d
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NOSUCHDEF	mld6.c	368;"	d	file:
+NOSUCHDEF	pim6.c	333;"	d	file:
+NOT_TIMEOUT	timer.h	69;"	d
+NO_VIF	vif.h	69;"	d
+NROFF	Makefile	/^NROFF = nroff$/;"	m
+NUMBER	cfparse.c	/^     NUMBER = 285,$/;"	e	enum:yytokentype	file:
+NUMBER	cfparse.c	274;"	d	file:
+NUMBER	cfparse.h	/^     NUMBER = 285,$/;"	e	enum:yytokentype
+NUMBER	cfparse.h	117;"	d
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+PACKAGE	Makefile	/^PACKAGE = mcast-tools$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = $/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = $/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = $/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = $/;"	m
+PATHNAMES_H	pathnames.h	59;"	d
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PHYINT	cfparse.c	/^     PHYINT = 265,$/;"	e	enum:yytokentype	file:
+PHYINT	cfparse.c	254;"	d	file:
+PHYINT	cfparse.h	/^     PHYINT = 265,$/;"	e	enum:yytokentype
+PHYINT	cfparse.h	97;"	d
+PHYINT	config.h	53;"	d
+PIM6_BOOTSTRAP_MINLEN	pim6_proto.c	3477;"	d	file:
+PIM6_CAND_RP_ADV_MINLEN	pim6_proto.c	4004;"	d	file:
+PIM6_ENCODE_GRP_ADDR_LEN	pimd.h	180;"	d
+PIM6_ENCODE_SRC_ADDR_LEN	pimd.h	191;"	d
+PIM6_ENCODE_UNI_ADDR_LEN	pimd.h	169;"	d
+PIM6_H	pim6.h	50;"	d
+PIM6_JOIN_PRUNE_MINLEN	pim6_proto.c	1488;"	d	file:
+PIM6_PROTO_H	pim6_proto.h	50;"	d
+PIMD_H	pimd.h	50;"	d
+PIM_ACTION_JOIN	pimd.h	235;"	d
+PIM_ACTION_NOTHING	pimd.h	234;"	d
+PIM_ACTION_PRUNE	pimd.h	236;"	d
+PIM_ASSERT	pimd.h	249;"	d
+PIM_ASSERT_RPT_BIT	pimd.h	241;"	d
+PIM_ASSERT_TIMEOUT	pimd.h	70;"	d
+PIM_BOOTSTRAP	pimd.h	248;"	d
+PIM_BOOTSTRAP_TIMEOUT	pimd.h	68;"	d
+PIM_CAND_RP_ADV	pimd.h	252;"	d
+PIM_DATA_TIMEOUT	pimd.h	57;"	d
+PIM_DEFAULT_BOOTSTRAP_PERIOD	pimd.h	66;"	d
+PIM_DEFAULT_BSR_PRIORITY	pimd.h	80;"	d
+PIM_DEFAULT_CAND_RP_ADV_PERIOD	pimd.h	65;"	d
+PIM_DEFAULT_CAND_RP_PRIORITY	pimd.h	74;"	d
+PIM_DEFAULT_DATA_RATE	pimd.h	108;"	d
+PIM_DEFAULT_DATA_RATE_INTERVAL	pimd.h	109;"	d
+PIM_DEFAULT_DR_PRIORITY	pimd.h	90;"	d
+PIM_DEFAULT_REG_RATE	pimd.h	106;"	d
+PIM_DEFAULT_REG_RATE_INTERVAL	pimd.h	107;"	d
+PIM_GRAFT	pimd.h	250;"	d
+PIM_GRAFT_ACK	pimd.h	251;"	d
+PIM_GROUP_PREFIX_DEFAULT_MASKLEN	pimd.h	93;"	d
+PIM_HELLO	pimd.h	245;"	d
+PIM_HELLO_ADDR_LIST_BIT	pimd.h	289;"	d
+PIM_HELLO_DR_PRIORITY_BIT	pimd.h	288;"	d
+PIM_HELLO_GENID_BIT	pimd.h	290;"	d
+PIM_HELLO_HOLDTIME_BIT	pimd.h	287;"	d
+PIM_IIF_RP	pimd.h	239;"	d
+PIM_IIF_SOURCE	pimd.h	238;"	d
+PIM_JOIN_PRUNE	pimd.h	247;"	d
+PIM_JOIN_PRUNE_HOLDTIME	pimd.h	62;"	d
+PIM_JOIN_PRUNE_PERIOD	pimd.h	60;"	d
+PIM_MESSAGE_HELLO_ADDRESSES	pimd.h	283;"	d
+PIM_MESSAGE_HELLO_ADDR_LIST	pimd.h	281;"	d
+PIM_MESSAGE_HELLO_DR_PRIORITY	pimd.h	273;"	d
+PIM_MESSAGE_HELLO_DR_PRIORITY_LENGTH	pimd.h	274;"	d
+PIM_MESSAGE_HELLO_GENID	pimd.h	277;"	d
+PIM_MESSAGE_HELLO_GENID_LENGTH	pimd.h	278;"	d
+PIM_MESSAGE_HELLO_HOLDTIME	pimd.h	268;"	d
+PIM_MESSAGE_HELLO_HOLDTIME_FOREVER	pimd.h	270;"	d
+PIM_MESSAGE_HELLO_HOLDTIME_LENGTH	pimd.h	269;"	d
+PIM_MESSAGE_REGISTER_BORDER_BIT	pimd.h	293;"	d
+PIM_MESSAGE_REGISTER_NULL_REGISTER_BIT	pimd.h	294;"	d
+PIM_PROTOCOL_VERSION	pimd.h	52;"	d
+PIM_RANDOM_DELAY_JOIN_TIMEOUT	pimd.h	63;"	d
+PIM_REGISTER_PROBE_TIME	pimd.h	56;"	d
+PIM_REGISTER_STOP	pimd.h	246;"	d
+PIM_REGISTER_SUPPRESSION_TIMEOUT	pimd.h	55;"	d
+PIM_TIMER_HELLO_HOLDTIME	pimd.h	69;"	d
+PIM_TIMER_HELLO_PERIOD	pimd.h	59;"	d
+PIM_V2_ASSERT	pimd.h	259;"	d
+PIM_V2_BOOTSTRAP	pimd.h	258;"	d
+PIM_V2_CAND_RP_ADV	pimd.h	262;"	d
+PIM_V2_GRAFT	pimd.h	260;"	d
+PIM_V2_GRAFT_ACK	pimd.h	261;"	d
+PIM_V2_HELLO	pimd.h	254;"	d
+PIM_V2_JOIN_PRUNE	pimd.h	257;"	d
+PIM_V2_REGISTER	pimd.h	255;"	d
+PIM_V2_REGISTER_STOP	pimd.h	256;"	d
+PLOG	cfparse-defs.h	36;"	d
+PLOG	cfparse-defs.h	41;"	d
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PREFERENCE	cfparse.c	/^     PREFERENCE = 269,$/;"	e	enum:yytokentype	file:
+PREFERENCE	cfparse.c	258;"	d	file:
+PREFERENCE	cfparse.h	/^     PREFERENCE = 269,$/;"	e	enum:yytokentype
+PREFERENCE	cfparse.h	101;"	d
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRINTF	defs.h	71;"	d
+PRIORITY	cfparse.c	/^     PRIORITY = 283,$/;"	e	enum:yytokentype	file:
+PRIORITY	cfparse.c	272;"	d	file:
+PRIORITY	cfparse.h	/^     PRIORITY = 283,$/;"	e	enum:yytokentype
+PRIORITY	cfparse.h	115;"	d
+PROBETIME	cfparse.c	/^     PROBETIME = 300,$/;"	e	enum:yytokentype	file:
+PROBETIME	cfparse.c	289;"	d	file:
+PROBETIME	cfparse.h	/^     PROBETIME = 300,$/;"	e	enum:yytokentype
+PROBETIME	cfparse.h	132;"	d
+PROBE_TIME	config.h	66;"	d
+PROGRAMS	Makefile	/^PROGRAMS = $(sbin_PROGRAMS)$/;"	m
+PROTO_CBT	trace.h	160;"	d
+PROTO_DVMRP	trace.h	157;"	d
+PROTO_DVMRP_STATIC	trace.h	163;"	d
+PROTO_MOSPF	trace.h	158;"	d
+PROTO_PIM	trace.h	159;"	d
+PROTO_PIM_SPECIAL	trace.h	161;"	d
+PROTO_PIM_STATIC	trace.h	162;"	d
+PUT_BYTE	pimd.h	343;"	d
+PUT_EGADDR6	pimd.h	459;"	d
+PUT_ESADDR6	pimd.h	436;"	d
+PUT_EUADDR6	pimd.h	481;"	d
+PUT_HOSTLONG	pimd.h	391;"	d
+PUT_HOSTSHORT	pimd.h	353;"	d
+PUT_NETLONG	pimd.h	412;"	d
+PUT_NETLONG	pimd.h	423;"	d
+PUT_NETSHORT	pimd.h	369;"	d
+PUT_NETSHORT	pimd.h	378;"	d
+Q	callout.c	/^static struct timeout_q *Q = 0;	\/* pointer to the beginning of timeout queue *\/$/;"	v	typeref:struct:timeout_q	file:
+QLEN	trace.h	125;"	d
+QUERY	trace.h	123;"	d
+QUERY_INT	cfparse.c	/^     QUERY_INT = 273,$/;"	e	enum:yytokentype	file:
+QUERY_INT	cfparse.c	262;"	d	file:
+QUERY_INT	cfparse.h	/^     QUERY_INT = 273,$/;"	e	enum:yytokentype
+QUERY_INT	cfparse.h	105;"	d
+QUERY_INT_RESP	cfparse.c	/^     QUERY_INT_RESP = 274,$/;"	e	enum:yytokentype	file:
+QUERY_INT_RESP	cfparse.c	263;"	d	file:
+QUERY_INT_RESP	cfparse.h	/^     QUERY_INT_RESP = 274,$/;"	e	enum:yytokentype
+QUERY_INT_RESP	cfparse.h	106;"	d
+RANDOM	defs.h	69;"	d
+RATE	cfparse.c	/^     RATE = 291,$/;"	e	enum:yytokentype	file:
+RATE	cfparse.c	280;"	d	file:
+RATE	cfparse.h	/^     RATE = 291,$/;"	e	enum:yytokentype
+RATE	cfparse.h	123;"	d
+RECURSIVE_CLEAN_TARGETS	Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+RECV_BUF_SIZE	mld6.h	52;"	d
+REDUCE	pim6.c	487;"	d	file:
+REGISTER_SUPPRESSION_TIMEOUT	config.h	65;"	d
+REGSUPTIME	cfparse.c	/^     REGSUPTIME = 299,$/;"	e	enum:yytokentype	file:
+REGSUPTIME	cfparse.c	288;"	d	file:
+REGSUPTIME	cfparse.h	/^     REGSUPTIME = 299,$/;"	e	enum:yytokentype
+REGSUPTIME	cfparse.h	131;"	d
+REGTHRES	cfparse.c	/^     REGTHRES = 289,$/;"	e	enum:yytokentype	file:
+REGTHRES	cfparse.c	278;"	d	file:
+REGTHRES	cfparse.h	/^     REGTHRES = 289,$/;"	e	enum:yytokentype
+REGTHRES	cfparse.h	121;"	d
+REG_RATE_CHECK_INTERVAL	pimd.h	112;"	d
+REG_THRESHOLD	config.h	57;"	d
+REJECT	cftoken.c	951;"	d	file:
+RESET_TIMER	timer.h	60;"	d
+RESP	trace.h	124;"	d
+REVERSELOOKUP	cfparse.c	/^     REVERSELOOKUP = 264,$/;"	e	enum:yytokentype	file:
+REVERSELOOKUP	cfparse.c	253;"	d	file:
+REVERSELOOKUP	cfparse.h	/^     REVERSELOOKUP = 264,$/;"	e	enum:yytokentype
+REVERSELOOKUP	cfparse.h	96;"	d
+RLEN	trace.h	126;"	d
+RNDUP	var.h	47;"	d
+ROBUST	cfparse.c	/^     ROBUST = 272,$/;"	e	enum:yytokentype	file:
+ROBUST	cfparse.c	261;"	d	file:
+ROBUST	cfparse.h	/^     ROBUST = 272,$/;"	e	enum:yytokentype
+ROBUST	cfparse.h	104;"	d
+ROUNDUP	routesock.c	116;"	d	file:
+ROUNDUP	routesock.c	119;"	d	file:
+ROUTESOCK_H	routesock.h	50;"	d
+ROUTE_H	route.h	57;"	d
+RPA_PRIORITY	cfparse.c	/^enum {IFA_FLAG, IFA_PREFERENCE, IFA_METRIC, RPA_PRIORITY, RPA_TIME,$/;"	e	enum:__anon10	file:
+RPA_STATICADDR	cfparse.c	/^      RPA_STATICADDR, STATICRT, IFA_PRIORITY$/;"	e	enum:__anon10	file:
+RPA_TIME	cfparse.c	/^enum {IFA_FLAG, IFA_PREFERENCE, IFA_METRIC, RPA_PRIORITY, RPA_TIME,$/;"	e	enum:__anon10	file:
+RP_DEFAULT_IPV6_HASHMASKLEN	pimd.h	81;"	d
+RP_H	rp.h	50;"	d
+RP_HASH_VALUE	rp.c	121;"	d	file:
+RP_HASH_VALUE2	rp.c	122;"	d	file:
+RP_ORIGIN_BSR	mrt.h	207;"	d
+RP_ORIGIN_EMBEDDEDRP	mrt.h	206;"	d
+RP_ORIGIN_STATIC	mrt.h	205;"	d
+SCRIPTS	Makefile	/^SCRIPTS = $(sbin_SCRIPTS)$/;"	m
+SEED1	rp.c	119;"	d	file:
+SEED2	rp.c	120;"	d	file:
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SET_TIMER	timer.h	59;"	d
+SFLAGNO	mld6v2.h	95;"	d
+SFLAGYES	mld6v2.h	94;"	d
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SINGLE_GRP_MSK6LEN	pimd.h	88;"	d
+SINGLE_SRC_MSK6LEN	pimd.h	87;"	d
+SLASH	cfparse.c	/^     SLASH = 287,$/;"	e	enum:yytokentype	file:
+SLASH	cfparse.c	276;"	d	file:
+SLASH	cfparse.h	/^     SLASH = 287,$/;"	e	enum:yytokentype
+SLASH	cfparse.h	119;"	d
+SOURCES	Makefile	/^SOURCES = $(pim6sd_SOURCES)$/;"	m
+SO_RECV_BUF_SIZE_MAX	mld6.h	53;"	d
+SO_RECV_BUF_SIZE_MIN	mld6.h	54;"	d
+SRCMETRIC	cfparse.c	/^     SRCMETRIC = 293,$/;"	e	enum:yytokentype	file:
+SRCMETRIC	cfparse.c	282;"	d	file:
+SRCMETRIC	cfparse.h	/^     SRCMETRIC = 293,$/;"	e	enum:yytokentype
+SRCMETRIC	cfparse.h	125;"	d
+SRCPREF	cfparse.c	/^     SRCPREF = 294,$/;"	e	enum:yytokentype	file:
+SRCPREF	cfparse.c	283;"	d	file:
+SRCPREF	cfparse.h	/^     SRCPREF = 294,$/;"	e	enum:yytokentype
+SRCPREF	cfparse.h	126;"	d
+SSMGROUP	pim6.h	63;"	d
+STAR_STAR_RP_MSK6LEN	pimd.h	508;"	d
+STATIC	cfparse.c	/^     STATIC = 279,$/;"	e	enum:yytokentype	file:
+STATIC	cfparse.c	268;"	d	file:
+STATIC	cfparse.h	/^     STATIC = 279,$/;"	e	enum:yytokentype
+STATIC	cfparse.h	111;"	d
+STATICRP	cfparse.c	/^     STATICRP = 278,$/;"	e	enum:yytokentype	file:
+STATICRP	cfparse.c	267;"	d	file:
+STATICRP	cfparse.h	/^     STATICRP = 278,$/;"	e	enum:yytokentype
+STATICRP	cfparse.h	110;"	d
+STATICRT	cfparse.c	/^      RPA_STATICADDR, STATICRT, IFA_PRIORITY$/;"	e	enum:__anon10	file:
+STRING	cfparse.c	/^     STRING = 286,$/;"	e	enum:yytokentype	file:
+STRING	cfparse.c	275;"	d	file:
+STRING	cfparse.h	/^     STRING = 286,$/;"	e	enum:yytokentype
+STRING	cfparse.h	118;"	d
+STRIP	Makefile	/^STRIP = $/;"	m
+SUBDIRS	Makefile	/^SUBDIRS = .$/;"	m
+S_CANDBSR	cftoken.c	1041;"	d	file:
+S_CANDRP	cftoken.c	1040;"	d	file:
+S_CNF	cftoken.c	1036;"	d	file:
+S_IFCONF	cftoken.c	1039;"	d	file:
+S_LOG	cftoken.c	1037;"	d	file:
+S_PHYINT	cftoken.c	1038;"	d	file:
+S_PREFIX	cftoken.c	1042;"	d	file:
+S_STATIC	cftoken.c	1045;"	d	file:
+S_STATICRP	cftoken.c	1044;"	d	file:
+S_THRES	cftoken.c	1043;"	d	file:
+SendQuery	mld6_proto.c	/^SendQuery(arg)$/;"	f	file:
+Send_GSS_QueryV2	mld6v2_proto.c	/^Send_GSS_QueryV2(arg)$/;"	f	file:
+Send_GS_QueryV2	mld6v2_proto.c	/^Send_GS_QueryV2(arg)$/;"	f
+SetQueryTimer	mld6_proto.c	/^SetQueryTimer(g, mifi, to_expire, q_time)$/;"	f	file:
+SetTimer	mld6_proto.c	/^SetTimer(mifi, g)$/;"	f
+SetTimerV1compat	mld6v2_proto.c	/^SetTimerV1compat(mifi, g, interval)$/;"	f
+SetTimerV2	mld6v2_proto.c	/^SetTimerV2(vifi, g, s)$/;"	f
+TAILQ_EMPTY	routesock.c	453;"	d	file:
+TAILQ_FIRST	routesock.c	450;"	d	file:
+TAILQ_FOREACH	routesock.c	459;"	d	file:
+TAILQ_NEXT	routesock.c	456;"	d	file:
+THRESA_INTERVAL	cfparse.c	/^      THRESA_INTERVAL,$/;"	e	enum:__anon10	file:
+THRESA_RATE	cfparse.c	/^      BSRA_PRIORITY, BSRA_TIME, BSRA_MASKLEN, IN6_PREFIX, THRESA_RATE,$/;"	e	enum:__anon10	file:
+TIME	cfparse.c	/^     TIME = 282,$/;"	e	enum:yytokentype	file:
+TIME	cfparse.c	271;"	d	file:
+TIME	cfparse.h	/^     TIME = 282,$/;"	e	enum:yytokentype
+TIME	cfparse.h	114;"	d
+TIMEOUT	timer.h	66;"	d
+TIMER_H	timer.h	50;"	d
+TIMER_INFINITY	timer.h	55;"	d
+TRACE_H	trace.h	71;"	d
+TRUE	defs.h	56;"	d
+TR_ADMIN_PROHIB	trace.h	145;"	d
+TR_CANT_COUNT	trace.h	154;"	d
+TR_GROUP_ONLY	trace.h	151;"	d
+TR_IIF	trace.h	141;"	d
+TR_NO_ERR	trace.h	132;"	d
+TR_NO_FWD	trace.h	139;"	d
+TR_NO_LHR	trace.h	138;"	d
+TR_NO_MULTI	trace.h	142;"	d
+TR_NO_RTE	trace.h	137;"	d
+TR_NO_SPACE	trace.h	143;"	d
+TR_NO_VIF	trace.h	129;"	d
+TR_OLD_ROUTER	trace.h	144;"	d
+TR_OPRUNED	trace.h	135;"	d
+TR_PRUNED	trace.h	134;"	d
+TR_RP	trace.h	140;"	d
+TR_SCOPED	trace.h	136;"	d
+TR_SUBNET_COUNT	trace.h	148;"	d
+TR_WRONG_IF	trace.h	133;"	d
+UCAST_DEFAULT_SOURCE_METRIC	pimd.h	490;"	d
+UCAST_DEFAULT_SOURCE_PREFERENCE	pimd.h	491;"	d
+UCAST_ROUTING_CHECK_INTERVAL	pimd.h	114;"	d
+UINT16_MAX	cftoken.c	81;"	d	file:
+UINT32_MAX	cftoken.c	84;"	d	file:
+UINT8_MAX	cftoken.c	78;"	d	file:
+UK_METHOD	Makefile	/^UK_METHOD = netlink$/;"	m
+UNKNOWN	config.h	51;"	d
+USADDR_RP_BIT	pimd.h	193;"	d
+USADDR_S_BIT	pimd.h	195;"	d
+USADDR_WC_BIT	pimd.h	194;"	d
+VAL_TO_MASK	trace.h	172;"	d
+VERSION	Makefile	/^VERSION = 20050926$/;"	m
+VFF_BIDIR	vif.h	117;"	d
+VFRF_EXACT	vif.h	112;"	d
+VFT_ACCEPT	vif.h	115;"	d
+VFT_DENY	vif.h	116;"	d
+VIFF_DISABLED	vif.h	72;"	d
+VIFF_DOWN	vif.h	71;"	d
+VIFF_ENABLED	vif.h	79;"	d
+VIFF_NOLISTENER	vif.h	78;"	d
+VIFF_NONBRS	vif.h	75;"	d
+VIFF_PIM_NBR	vif.h	76;"	d
+VIFF_POINT_TO_POINT	vif.h	77;"	d
+VIFF_QUERIER	vif.h	73;"	d
+VIFF_REXMIT_PRUNES	vif.h	74;"	d
+VIF_H	vif.h	59;"	d
+VOIF_COPY	mrt.h	87;"	d
+VREALLOC	vmbuf.h	47;"	d
+YACC	Makefile	/^YACC = bison -y$/;"	m
+YACCCOMPILE	Makefile	/^YACCCOMPILE = $(YACC) $(YFLAGS) $(AM_YFLAGS)$/;"	m
+YES	cfparse.c	/^     YES = 262,$/;"	e	enum:yytokentype	file:
+YES	cfparse.c	251;"	d	file:
+YES	cfparse.h	/^     YES = 262,$/;"	e	enum:yytokentype
+YES	cfparse.h	94;"	d
+YFLAGS	Makefile	/^YFLAGS = $/;"	m
+YIPSDEBUG	debug.h	129;"	d
+YIPSDEBUG	debug.h	131;"	d
+YIPSDP	cfparse-defs.h	35;"	d
+YIPSDP	cfparse-defs.h	40;"	d
+YLWRAP	Makefile	/^YLWRAP = $(top_srcdir)\/ylwrap$/;"	m
+YYABORT	cfparse.c	837;"	d	file:
+YYACCEPT	cfparse.c	836;"	d	file:
+YYBACKUP	cfparse.c	849;"	d	file:
+YYBISON	cfparse.c	46;"	d	file:
+YYBISON_VERSION	cfparse.c	49;"	d	file:
+YYCOPY	cfparse.c	503;"	d	file:
+YYCOPY	cfparse.c	506;"	d	file:
+YYDEBUG	cfparse.c	176;"	d	file:
+YYDPRINTF	cfparse.c	1078;"	d	file:
+YYDPRINTF	cfparse.c	929;"	d	file:
+YYD_ECHO	cfparse-defs.h	33;"	d
+YYD_ECHO	cfparse-defs.h	39;"	d
+YYEMPTY	cfparse.c	833;"	d	file:
+YYEOF	cfparse.c	834;"	d	file:
+YYERRCODE	cfparse.c	868;"	d	file:
+YYERROR	cfparse.c	838;"	d	file:
+YYERROR_VERBOSE	cfparse.c	181;"	d	file:
+YYERROR_VERBOSE	cfparse.c	182;"	d	file:
+YYERROR_VERBOSE	cfparse.c	184;"	d	file:
+YYFAIL	cfparse.c	845;"	d	file:
+YYFINAL	cfparse.c	536;"	d	file:
+YYFPRINTF	cfparse.c	926;"	d	file:
+YYFREE	cfparse.c	469;"	d	file:
+YYID	cfparse.c	/^YYID (int yyi)$/;"	f	file:
+YYID	cfparse.c	393;"	d	file:
+YYINITDEPTH	cfparse.c	1087;"	d	file:
+YYLAST	cfparse.c	538;"	d	file:
+YYLEX	cfparse.c	916;"	d	file:
+YYLEX	cfparse.c	918;"	d	file:
+YYLLOC_DEFAULT	cfparse.c	877;"	d	file:
+YYLSP_NEEDED	cfparse.c	64;"	d	file:
+YYMALLOC	cfparse.c	462;"	d	file:
+YYMAXDEPTH	cfparse.c	1098;"	d	file:
+YYMAXUTOK	cfparse.c	551;"	d	file:
+YYNNTS	cfparse.c	543;"	d	file:
+YYNRULES	cfparse.c	545;"	d	file:
+YYNSTATES	cfparse.c	547;"	d	file:
+YYNTOKENS	cfparse.c	541;"	d	file:
+YYPACT_NINF	cfparse.c	743;"	d	file:
+YYPOPSTACK	cfparse.c	1438;"	d	file:
+YYPULL	cfparse.c	61;"	d	file:
+YYPURE	cfparse.c	55;"	d	file:
+YYPUSH	cfparse.c	58;"	d	file:
+YYRECOVERING	cfparse.c	847;"	d	file:
+YYRHSLOC	cfparse.c	875;"	d	file:
+YYSIZE_MAXIMUM	cfparse.c	370;"	d	file:
+YYSIZE_T	cfparse.c	358;"	d	file:
+YYSIZE_T	cfparse.c	360;"	d	file:
+YYSIZE_T	cfparse.c	364;"	d	file:
+YYSIZE_T	cfparse.c	366;"	d	file:
+YYSKELETON_NAME	cfparse.c	52;"	d	file:
+YYSTACK_ALLOC	cfparse.c	416;"	d	file:
+YYSTACK_ALLOC	cfparse.c	420;"	d	file:
+YYSTACK_ALLOC	cfparse.c	425;"	d	file:
+YYSTACK_ALLOC	cfparse.c	448;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	cfparse.c	445;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	cfparse.c	451;"	d	file:
+YYSTACK_BYTES	cfparse.c	495;"	d	file:
+YYSTACK_FREE	cfparse.c	439;"	d	file:
+YYSTACK_FREE	cfparse.c	449;"	d	file:
+YYSTACK_GAP_MAXIMUM	cfparse.c	491;"	d	file:
+YYSTACK_RELOCATE	cfparse.c	522;"	d	file:
+YYSTATE	cftoken.c	133;"	d	file:
+YYSTYPE	cfparse.c	/^typedef union YYSTYPE$/;"	u	file:
+YYSTYPE	cfparse.c	/^} YYSTYPE;$/;"	t	typeref:union:YYSTYPE	file:
+YYSTYPE	cfparse.h	/^typedef union YYSTYPE$/;"	u
+YYSTYPE	cfparse.h	/^} YYSTYPE;$/;"	t	typeref:union:YYSTYPE
+YYSTYPE_IS_DECLARED	cfparse.c	315;"	d	file:
+YYSTYPE_IS_DECLARED	cfparse.h	158;"	d
+YYSTYPE_IS_TRIVIAL	cfparse.c	313;"	d	file:
+YYSTYPE_IS_TRIVIAL	cfparse.h	156;"	d
+YYTABLES_NAME	cftoken.c	3310;"	d	file:
+YYTABLE_NINF	cfparse.c	774;"	d	file:
+YYTERROR	cfparse.c	867;"	d	file:
+YYTOKENTYPE	cfparse.c	195;"	d	file:
+YYTOKENTYPE	cfparse.h	38;"	d
+YYTOKEN_TABLE	cfparse.c	189;"	d	file:
+YYTRANSLATE	cfparse.c	553;"	d	file:
+YYUNDEFTOK	cfparse.c	550;"	d	file:
+YYUSE	cfparse.c	386;"	d	file:
+YYUSE	cfparse.c	388;"	d	file:
+YY_	cfparse.c	376;"	d	file:
+YY_	cfparse.c	380;"	d	file:
+YY_AT_BOL	cftoken.c	340;"	d	file:
+YY_BREAK	cftoken.c	1216;"	d	file:
+YY_BUFFER_EOF_PENDING	cftoken.c	256;"	d	file:
+YY_BUFFER_NEW	cftoken.c	244;"	d	file:
+YY_BUFFER_NORMAL	cftoken.c	245;"	d	file:
+YY_BUFFER_STATE	cftoken.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	cftoken.c	150;"	d	file:
+YY_BUF_SIZE	cftoken.c	152;"	d	file:
+YY_CHAR	cftoken.c	/^typedef unsigned char YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	cftoken.c	272;"	d	file:
+YY_CURRENT_BUFFER_LVALUE	cftoken.c	279;"	d	file:
+YY_DECL	cftoken.c	1204;"	d	file:
+YY_DECL_IS_OURS	cftoken.c	1200;"	d	file:
+YY_DO_BEFORE_ACTION	cftoken.c	365;"	d	file:
+YY_END_OF_BUFFER	cftoken.c	373;"	d	file:
+YY_END_OF_BUFFER_CHAR	cftoken.c	141;"	d	file:
+YY_EXIT_FAILURE	cftoken.c	3108;"	d	file:
+YY_EXTRA_TYPE	cftoken.c	1056;"	d	file:
+YY_FATAL_ERROR	cftoken.c	1191;"	d	file:
+YY_FLEX_MAJOR_VERSION	cftoken.c	10;"	d	file:
+YY_FLEX_MINOR_VERSION	cftoken.c	11;"	d	file:
+YY_FLEX_SUBMINOR_VERSION	cftoken.c	12;"	d	file:
+YY_FLUSH_BUFFER	cftoken.c	308;"	d	file:
+YY_INPUT	cftoken.c	1144;"	d	file:
+YY_INT_ALIGNED	cftoken.c	5;"	d	file:
+YY_LESS_LINENO	cftoken.c	173;"	d	file:
+YY_LOCATION_PRINT	cfparse.c	903;"	d	file:
+YY_LOCATION_PRINT	cfparse.c	908;"	d	file:
+YY_MORE_ADJ	cftoken.c	953;"	d	file:
+YY_NEW_FILE	cftoken.c	139;"	d	file:
+YY_NULL	cftoken.c	113;"	d	file:
+YY_NUM_RULES	cftoken.c	372;"	d	file:
+YY_READ_BUF_SIZE	cftoken.c	1126;"	d	file:
+YY_READ_BUF_SIZE	cftoken.c	1128;"	d	file:
+YY_REDUCE_PRINT	cfparse.c	1068;"	d	file:
+YY_REDUCE_PRINT	cfparse.c	1081;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	cftoken.c	954;"	d	file:
+YY_RULE_SETUP	cftoken.c	1219;"	d	file:
+YY_SC_TO_UI	cftoken.c	120;"	d	file:
+YY_STACK_PRINT	cfparse.c	1030;"	d	file:
+YY_STACK_PRINT	cfparse.c	1080;"	d	file:
+YY_START	cftoken.c	132;"	d	file:
+YY_START_STACK_INCR	cftoken.c	1186;"	d	file:
+YY_STATE_BUF_SIZE	cftoken.c	158;"	d	file:
+YY_STATE_EOF	cftoken.c	136;"	d	file:
+YY_STRUCT_YY_BUFFER_STATE	cftoken.c	197;"	d	file:
+YY_SYMBOL_PRINT	cfparse.c	1079;"	d	file:
+YY_SYMBOL_PRINT	cfparse.c	935;"	d	file:
+YY_TYPEDEF_YY_BUFFER_STATE	cftoken.c	161;"	d	file:
+YY_TYPEDEF_YY_SIZE_T	cftoken.c	192;"	d	file:
+YY_USER_ACTION	cftoken.c	1211;"	d	file:
+YY_USE_CONST	cftoken.c	101;"	d	file:
+YY_USE_CONST	cftoken.c	94;"	d	file:
+_PATH_PIM6D_CACHE	pathnames.h	68;"	d
+_PATH_PIM6D_CACHE	pathnames.h	74;"	d
+_PATH_PIM6D_CONF	pathnames.h	61;"	d
+_PATH_PIM6D_DUMP	pathnames.h	67;"	d
+_PATH_PIM6D_DUMP	pathnames.h	73;"	d
+_PATH_PIM6D_GENID	pathnames.h	66;"	d
+_PATH_PIM6D_GENID	pathnames.h	72;"	d
+_PATH_PIM6D_LOGFILE	pathnames.h	62;"	d
+_PATH_PIM6D_PID	pathnames.h	65;"	d
+_PATH_PIM6D_PID	pathnames.h	71;"	d
+_PATH_PIM6D_STAT	pathnames.h	69;"	d
+_PATH_PIM6D_STAT	pathnames.h	75;"	d
+_STDLIB_H	cfparse.c	430;"	d	file:
+_STDLIB_H	cfparse.c	458;"	d	file:
+_VAR_H_	var.h	33;"	d
+__STDC_LIMIT_MACROS	cftoken.c	40;"	d	file:
+_vchar_	vmbuf.h	/^typedef struct _vchar_ {$/;"	s
+abs_builddir	Makefile	/^abs_builddir = \/home\/lolshvax\/Mcast\/mcast-tools\/pim6sd$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/lolshvax\/Mcast\/mcast-tools\/pim6sd$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/lolshvax\/Mcast\/mcast-tools$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/lolshvax\/Mcast\/mcast-tools$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+accept_listenerV2_query	mld6v2_proto.c	/^accept_listenerV2_query(src, dst, query_message, datalen)$/;"	f
+accept_listenerV2_report	mld6v2_proto.c	/^accept_listenerV2_report(src, dst, report_message, datalen)$/;"	f
+accept_listener_done	mld6_proto.c	/^accept_listener_done(src, dst, group)$/;"	f
+accept_listener_query	mld6_proto.c	/^accept_listener_query(src, dst, group, tmo)$/;"	f
+accept_listener_report	mld6_proto.c	/^accept_listener_report(src, dst, group)$/;"	f
+accept_mld6	mld6.c	/^accept_mld6(recvlen)$/;"	f	file:
+accept_mtrace	trace.c	/^accept_mtrace(src, dst, group, ifindex, data, no, datalen)$/;"	f
+accept_multicast_record	mld6v2_proto.c	/^accept_multicast_record(vifi, mard, src, grp)$/;"	f	file:
+accept_pim6	pim6.c	/^accept_pim6(pimlen)$/;"	f	file:
+acl_addr	vif.h	/^	struct sockaddr_in6 	acl_addr;$/;"	m	struct:vif_acl	typeref:struct:vif_acl::sockaddr_in6
+acl_mask	vif.h	/^	struct in6_addr		acl_mask;$/;"	m	struct:vif_acl	typeref:struct:vif_acl::in6_addr
+acl_next	vif.h	/^	struct vif_acl 		*acl_next;$/;"	m	struct:vif_acl	typeref:struct:vif_acl::vif_acl
+active_rp_grp	mrt.h	/^	rp_grp_entry_t  *active_rp_grp;	\/* Pointer to the active rp_grp entry*\/$/;"	m	struct:grpentry
+add_attribute_flag	cfparse.c	/^add_attribute_flag(list, type, flag)$/;"	f	file:
+add_attribute_num	cfparse.c	/^add_attribute_num(list, type, num)$/;"	f	file:
+add_cand_rp	rp.c	/^add_cand_rp(used_cand_rp_list, address)$/;"	f	file:
+add_grp_mask	rp.c	/^add_grp_mask(used_grp_mask_list, group_addr, group_mask, hash_mask)$/;"	f	file:
+add_jp_entry	pim6_proto.c	/^add_jp_entry(pim_nbr, holdtime, group, grp_msklen, source, src_msklen,$/;"	f
+add_kernel_cache	mrt.c	/^add_kernel_cache(mrtentry_ptr, source, group, flags)$/;"	f
+add_leaf	route.c	/^add_leaf(vifi, source, group)$/;"	f
+add_rp_grp_entry	rp.c	/^add_rp_grp_entry(used_cand_rp_list, used_grp_mask_list,$/;"	f
+add_static_rt_entry	routesock.c	/^int add_static_rt_entry(paddr, plen, gwaddr)$/;"	f
+addattr32	netlink.c	/^addattr32(struct nlmsghdr *n, int maxlen, int type, struct sockaddr_in6 data)$/;"	f	file:
+addr_family	pimd.h	/^    u_int8      addr_family;$/;"	m	struct:pim6_encod_grp_addr_
+addr_family	pimd.h	/^    u_int8      addr_family;$/;"	m	struct:pim6_encod_src_addr_
+addr_family	pimd.h	/^    u_int8      addr_family;$/;"	m	struct:pim6_encod_uni_addr_
+address	mrt.h	/^	struct sockaddr_in6 	address; \/* (primary) neighbor address *\/$/;"	m	struct:pim_nbr_entry	typeref:struct:pim_nbr_entry::sockaddr_in6
+address	mrt.h	/^	struct sockaddr_in6 address;	\/* source or RP address *\/$/;"	m	struct:srcentry	typeref:struct:srcentry::sockaddr_in6
+addrs	pim6_proto.c	/^    struct phaddr *addrs;	\/* additional addresses (experimental) *\/$/;"	m	struct:pim_hello_options	typeref:struct:pim_hello_options::phaddr	file:
+advholdtime	mrt.h	/^	u_int16	advholdtime;	\/* advertised holdtime *\/$/;"	m	struct:rp_grp_entry
+age_callout_queue	callout.c	/^age_callout_queue(elapsed_time)$/;"	f
+age_misc	timer.c	/^age_misc()$/;"	f
+age_routes	timer.c	/^age_routes()$/;"	f
+age_vifs	timer.c	/^age_vifs()$/;"	f
+al_addr	vif.h	/^	struct sockaddr_in6 al_addr; \/* local group or neighbor address *\/$/;"	m	struct:listaddr	typeref:struct:listaddr::sockaddr_in6
+al_alu	vif.h	/^	} al_alu;$/;"	m	struct:listaddr	typeref:union:listaddr::__anon6
+al_checklist	vif.h	/^	u_long al_checklist; \/* TRUE I'm in checking listener state *\/$/;"	m	struct:listaddr
+al_comp	vif.h	/^	u_long al_comp; \/* timer to return from mldv1-compatibility mode *\/$/;"	m	struct:listaddr
+al_ctime	vif.h	/^	time_t al_ctime; \/* entry creation time *\/$/;"	m	struct:listaddr
+al_flags	vif.h	/^	u_int16 al_flags; \/* flags related to this neighbor *\/$/;"	m	struct:listaddr
+al_genid	vif.h	170;"	d
+al_index	vif.h	/^	u_char al_index; \/* neighbor index *\/$/;"	m	struct:listaddr
+al_mv	vif.h	/^	u_char al_mv;  \/* router mrouted version *\/$/;"	m	struct:listaddr
+al_next	vif.h	/^	struct listaddr *al_next; \/* link to next addr, MUST BE FIRST *\/$/;"	m	struct:listaddr	typeref:struct:listaddr::listaddr
+al_pv	vif.h	/^	u_char al_pv; \/* router protocol version *\/$/;"	m	struct:listaddr
+al_query	vif.h	/^	u_long al_query; \/* timer for repeated leave query *\/$/;"	m	struct:listaddr
+al_reporter	vif.h	171;"	d
+al_rob	vif.h	/^	int32_t al_rob;	  \/* robustness *\/$/;"	m	struct:listaddr
+al_timer	vif.h	/^	u_long al_timer;$/;"	m	struct:listaddr
+al_timerid	vif.h	/^	u_long al_timerid; \/* timer for group membership *\/$/;"	m	struct:listaddr
+allnodes_group	mld6.c	/^struct sockaddr_in6 allnodes_group;$/;"	v	typeref:struct:sockaddr_in6
+alloc_mrtentry	mrt.c	/^alloc_mrtentry(srcentry_ptr, grpentry_ptr)$/;"	f	file:
+alloca	cfparse.c	423;"	d	file:
+allowednets	config.c	/^    struct SubnetList*  allowednets;$/;"	m	struct:vifconfig	typeref:struct:vifconfig::SubnetList	file:
+allpim6routers_group	pim6.c	/^struct sockaddr_in6 allpim6routers_group;$/;"	v	typeref:struct:sockaddr_in6
+allrouters_group	mld6.c	/^struct sockaddr_in6 allrouters_group;$/;"	v	typeref:struct:sockaddr_in6
+alu_genid	vif.h	/^		u_int32 alu_genid; \/* generation id for neighbor *\/$/;"	m	union:listaddr::__anon6
+alu_reporter	vif.h	/^		struct sockaddr_in6 alu_reporter;$/;"	m	union:listaddr::__anon6	typeref:struct:listaddr::__anon6::sockaddr_in6
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(sbindir)" "$(DESTDIR)$(sbindir)" \\$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__relativize	Makefile	/^am__relativize = \\$/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_pim6sd_OBJECTS	Makefile	/^am_pim6sd_OBJECTS = mld6.$(OBJEXT) mld6_proto.$(OBJEXT) \\$/;"	m
+assert_rate_timer	mrt.h	/^	u_int 	assert_rate_timer;$/;"	m	struct:mrtentry
+assert_timer	mrt.h	/^	u_int 	assert_timer;$/;"	m	struct:mrtentry
+asserted_oifs	mrt.h	/^	if_set asserted_oifs;		\/* The asserted oifs (lost Assert)  *\/$/;"	m	struct:mrtentry
+asserttimo	cfparse.c	/^	datatimo, regsuptimo, probetime, asserttimo;$/;"	v	file:
+attr	cfparse.c	/^	struct attr_list *attr;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::attr_list	file:
+attr	cfparse.h	/^	struct attr_list *attr;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::attr_list
+attr_list	cfparse.c	/^struct attr_list {$/;"	s	file:
+attru	cfparse.c	/^	}attru;$/;"	m	struct:attr_list	typeref:union:attr_list::__anon9	file:
+aux_addrs	mrt.h	/^	struct phaddr		*aux_addrs; \/* additional addresses *\/$/;"	m	struct:pim_nbr_entry	typeref:struct:pim_nbr_entry::phaddr
+auxlen	mld6v2.h	/^    u_int8          auxlen;	\/* Aux Data Length *\/$/;"	m	struct:mld_group_record_hdr
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bitmap	pim6_proto.c	/^    int bitmap;			\/* bitmap to show which option is included *\/$/;"	m	struct:pim_hello_options	file:
+bootstrap_initial_delay	rp.c	/^bootstrap_initial_delay()$/;"	f
+bsr_attr	cfparse.c	/^static struct attr_list *rp_attr, *bsr_attr, *grp_prefix, *regthres_attr,$/;"	v	typeref:struct:	file:
+bsr_config	cfparse.c	/^bsr_config()$/;"	f	file:
+buffer	rp.h	/^	u_int8					*buffer;$/;"	m	struct:cand_rp_adv_message_
+build_alias	Makefile	/^build_alias = $/;"	m
+build_jp_message	mrt.h	/^	build_jp_message_t	*build_jp_message; $/;"	m	struct:pim_nbr_entry
+build_jp_message	mrt.h	/^typedef struct build_jp_message {$/;"	s
+build_jp_message_pool	pim6_proto.c	/^build_jp_message_t 	*build_jp_message_pool;$/;"	v
+build_jp_message_pool_counter	pim6_proto.c	/^int			build_jp_message_pool_counter;$/;"	v
+build_jp_message_t	mrt.h	/^} build_jp_message_t;$/;"	t	typeref:struct:build_jp_message
+builddir	Makefile	/^builddir = .$/;"	m
+bytecnt	mrt.h	/^	u_quad_t bytecnt;	\/*  Number of bytes for (s,g)   *\/$/;"	m	struct:sg_count
+cachefilename	debug.c	/^static char     cachefilename[] = _PATH_PIM6D_CACHE;	\/* TODO: notused *\/$/;"	v	file:
+calc_oifs	route.c	/^calc_oifs(mrtentry_ptr, oifs_ptr)$/;"	f
+callout_init	callout.c	/^callout_init()$/;"	f
+cand_bsr_flag	rp.c	/^u_int8          		cand_bsr_flag;	\/* Set to TRUE if I am a candidate$/;"	v
+cand_bsr_ifname	rp.c	/^char				*cand_bsr_ifname;$/;"	v
+cand_rp	mrt.h	/^	struct cand_rp	*cand_rp;	\/* Used if this is rpentry_t *\/$/;"	m	struct:srcentry	typeref:struct:srcentry::cand_rp
+cand_rp	mrt.h	/^typedef struct cand_rp {$/;"	s
+cand_rp_adv_message	rp.c	/^struct cand_rp_adv_message_ 	cand_rp_adv_message;$/;"	v	typeref:struct:cand_rp_adv_message_
+cand_rp_adv_message_	rp.h	/^extern struct cand_rp_adv_message_ {$/;"	s
+cand_rp_flag	rp.c	/^u_int8          		cand_rp_flag;	\/* Candidate RP flag *\/$/;"	v
+cand_rp_ifname	rp.c	/^char				*cand_rp_ifname;$/;"	v
+cand_rp_list	rp.c	/^cand_rp_t      			*cand_rp_list;$/;"	v
+cand_rp_t	mrt.h	/^} cand_rp_t;$/;"	t	typeref:struct:cand_rp
+cbk_t	mld6_proto.h	/^} cbk_t;$/;"	t	typeref:struct:__anon11
+cdump	debug.c	/^cdump(i)$/;"	f
+cf_init	cfparse.c	/^cf_init(s, d)$/;"	f
+cf_post_config	cfparse.c	/^cf_post_config()$/;"	f
+cfparse	cftoken.c	/^cfparse(strict, debugonly)$/;"	f
+cfunc_t	defs.h	/^typedef	void	( *cfunc_t )		__P( ( void * ) );$/;"	t
+change_interfaces	route.c	/^change_interfaces(mrtentry_ptr, new_iif, new_joined_oifs_, new_pruned_oifs,$/;"	f
+check_mrtentry_rp	rp.c	/^check_mrtentry_rp(mrtentry_ptr, rp_addr)$/;"	f
+check_multicastV2_listener	mld6v2_proto.c	/^check_multicastV2_listener(v, group, g, source)$/;"	f
+check_multicast_listener	mld6_proto.c	/^check_multicast_listener(v, group)$/;"	f
+check_vif_state	vif.c	/^check_vif_state()$/;"	f
+choose_pim_dr	pim6_proto.c	/^choose_pim_dr(struct uvif *v)$/;"	f	file:
+choose_second_best_dr	pim6_proto.c	/^choose_second_best_dr(struct uvif *v)$/;"	f	file:
+cleanup	main.c	/^cleanup()$/;"	f	file:
+codafloat	mld6v2.c	/^codafloat(unsigned int nbr, unsigned int *realnbr, unsigned int sizeexp,$/;"	f
+commonConfig	config.c	/^static struct Config commonConfig;$/;"	v	typeref:struct:Config	file:
+comp_mode	vif.h	/^	u_int16 comp_mode; \/* compatibility mode *\/$/;"	m	struct:listaddr
+compare_metrics	pim6_proto.c	/^compare_metrics(local_preference, local_metric, local_address,$/;"	f	file:
+config_attr	vif.h	/^	void *config_attr;	\/* temporary buffer while parsing config *\/$/;"	m	struct:uvif
+configfilename	main.c	/^char            	configfilename[256] = _PATH_PIM6D_CONF;$/;"	v
+configureVifs	config.c	/^void configureVifs() {$/;"	f
+const	trace.h	195;"	d
+crc	crc.c	/^unsigned long crc(unsigned char *buf, int len)$/;"	f
+crc_table	crc.c	/^	unsigned long crc_table[256];$/;"	v
+crc_table_computed	crc.c	/^	int crc_table_computed = 0;$/;"	v
+create_grpentry	mrt.c	/^create_grpentry(group)$/;"	f	file:
+create_mrtentry	mrt.c	/^create_mrtentry(srcentry_ptr, grpentry_ptr, flags)$/;"	f	file:
+create_pim6_bootstrap_message	rp.c	/^create_pim6_bootstrap_message(send_buff)$/;"	f
+create_srcentry	mrt.c	/^create_srcentry(source)$/;"	f	file:
+ctlbuflen	mld6.c	/^int ctlbuflen = 0;$/;"	v
+curr_bsr_address	rp.c	/^struct sockaddr_in6		curr_bsr_address;$/;"	v	typeref:struct:sockaddr_in6
+curr_bsr_fragment_tag	rp.c	/^u_int16         		curr_bsr_fragment_tag;$/;"	v
+curr_bsr_hash_mask	rp.c	/^struct in6_addr			curr_bsr_hash_mask;$/;"	v	typeref:struct:in6_addr
+curr_bsr_priority	rp.c	/^u_int8          		curr_bsr_priority;$/;"	v
+curr_group	mrt.h	/^	struct sockaddr_in6 curr_group;	\/* Current group address *\/$/;"	m	struct:build_jp_message	typeref:struct:build_jp_message::sockaddr_in6
+curr_group_msklen	mrt.h	/^	u_int8 	curr_group_msklen;	\/* Current group masklen *\/ 	$/;"	m	struct:build_jp_message
+data	callout.c	/^    void           *data;	\/* func's data *\/$/;"	m	struct:timeout_q	file:
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datathres_attr	cfparse.c	/^	*datathres_attr, *static_rp, *static_rt;$/;"	v	typeref:struct:	file:
+datathres_config	cfparse.c	/^datathres_config()$/;"	f	file:
+datatimo	cfparse.c	/^	datatimo, regsuptimo, probetime, asserttimo;$/;"	v	file:
+debug	debug.c	/^unsigned long   debug = 0x00000000;	\/* If (long) is smaller than 4 bytes,$/;"	v
+debug_kind	debug.c	/^debug_kind(proto, type, code)$/;"	f
+debugname	main.c	/^static struct debugname$/;"	s	file:
+debugnames	main.c	/^}               debugnames[] = {$/;"	v	typeref:struct:debugname	file:
+debugonly	cfparse.c	/^static int debugonly;$/;"	v	file:
+decodeafloat	mld6v2.c	/^decodeafloat(unsigned int nbr,unsigned int sizeexp,unsigned int sizemant)$/;"	f
+default_source_metric	route.c	/^u_int32         default_source_metric = UCAST_DEFAULT_SOURCE_METRIC;$/;"	v
+default_source_preference	route.c	/^u_int32         default_source_preference = UCAST_DEFAULT_SOURCE_PREFERENCE;$/;"	v
+default_vif_status	vif.c	/^int default_vif_status;$/;"	v
+delete_grp_mask	rp.c	/^delete_grp_mask(used_cand_rp_list, used_grp_mask_list, group_addr, group_mask)$/;"	f
+delete_grp_mask_entry	rp.c	/^delete_grp_mask_entry(used_cand_rp_list, used_grp_mask_list, grp_mask_delete)$/;"	f	file:
+delete_grpentry	mrt.c	/^delete_grpentry(grpentry_ptr)$/;"	f
+delete_leaf	route.c	/^delete_leaf(vifi, source, group)$/;"	f
+delete_mrtentry	mrt.c	/^delete_mrtentry(mrtentry_ptr)$/;"	f
+delete_mrtentry_all_kernel_cache	mrt.c	/^delete_mrtentry_all_kernel_cache(mrtentry_ptr)$/;"	f
+delete_pim6_nbr	pim6_proto.c	/^delete_pim6_nbr(nbr_delete)$/;"	f
+delete_rp	rp.c	/^delete_rp(used_cand_rp_list, used_grp_mask_list, rp_addr)$/;"	f
+delete_rp_entry	rp.c	/^delete_rp_entry(used_cand_rp_list, used_grp_mask_list, cand_rp_delete)$/;"	f	file:
+delete_rp_grp_entry	rp.c	/^delete_rp_grp_entry(used_cand_rp_list, used_grp_mask_list,$/;"	f
+delete_rp_list	rp.c	/^delete_rp_list(used_cand_rp_list, used_grp_mask_list)$/;"	f
+delete_single_kernel_cache	mrt.c	/^delete_single_kernel_cache(mrtentry_ptr, kernel_cache_ptr)$/;"	f
+delete_single_kernel_cache_addr	mrt.c	/^delete_single_kernel_cache_addr(mrtentry_ptr, source, group)$/;"	f
+delete_srcentry	mrt.c	/^delete_srcentry(srcentry_ptr)$/;"	f
+delete_vif_from_mrt	route.c	/^delete_vif_from_mrt(vifi)$/;"	f
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE}$/;"	m
+dst_sa	mld6.c	/^static struct sockaddr_in6 	dst_sa;$/;"	v	typeref:struct:sockaddr_in6	file:
+dst_sa	mld6v2.c	/^static struct sockaddr_in6 dst_sa;$/;"	v	typeref:struct:sockaddr_in6	file:
+dump_callout_Q	callout.c	/^dump_callout_Q(fp)$/;"	f
+dump_mldgroups	debug.c	/^dump_mldgroups(fp)$/;"	f
+dump_mldqueriers	debug.c	/^dump_mldqueriers(fp)$/;"	f
+dump_nbrs	debug.c	/^dump_nbrs(fp)$/;"	f
+dump_pim_mrt	debug.c	/^dump_pim_mrt(fp)$/;"	f
+dump_rp_set	debug.c	/^dump_rp_set(fp)$/;"	f
+dump_stat	debug.c	/^dump_stat()$/;"	f
+dump_vifs	debug.c	/^dump_vifs(fp)$/;"	f
+dumpfilename	debug.c	/^static char     dumpfilename[] = _PATH_PIM6D_DUMP;$/;"	v	file:
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+encod_grp	pimd.h	/^    pim6_encod_grp_addr_t   encod_grp;$/;"	m	struct:pim_jp_encod_grp_
+encod_grp	pimd.h	/^    pim6_encod_grp_addr_t encod_grp;$/;"	m	struct:pim_register_stop_
+encod_src	pimd.h	/^    pim6_encod_uni_addr_t encod_src; \/* XXX: 18 bytes long, misaligned *\/$/;"	m	struct:pim_register_stop_
+encod_type	pimd.h	/^    u_int8      encod_type;$/;"	m	struct:pim6_encod_grp_addr_
+encod_type	pimd.h	/^    u_int8      encod_type;$/;"	m	struct:pim6_encod_src_addr_
+encod_type	pimd.h	/^    u_int8      encod_type;$/;"	m	struct:pim6_encod_uni_addr_
+encod_upstream_nbr	pimd.h	/^    pim6_encod_uni_addr_t encod_upstream_nbr;$/;"	m	struct:pim_jp_header_
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+fd	main.c	/^    int             fd;		\/* File descriptor               *\/$/;"	m	struct:ihandler	file:
+fdump	debug.c	/^fdump(i)$/;"	f
+filter_mode	vif.h	/^	u_int16 filter_mode; \/* filter mode for mldv2 *\/$/;"	m	struct:listaddr
+find_group	mrt.c	/^find_group(group)$/;"	f
+find_pim6_nbr	route.c	/^find_pim6_nbr(source)$/;"	f
+find_route	mrt.c	/^find_route(source, group, flags, create)$/;"	f
+find_source	mrt.c	/^find_source(source)$/;"	f
+find_static_rt_entry	routesock.c	/^struct staticrt *find_static_rt_entry(addr)$/;"	f
+find_vif	vif.c	/^find_vif(ifname, create, default_policy)$/;"	f
+find_vif_direct	vif.c	/^find_vif_direct(src)$/;"	f
+find_vif_direct_local	vif.c	/^find_vif_direct_local(src)$/;"	f
+fl	cfparse.c	/^	double fl;$/;"	m	union:YYSTYPE	file:
+fl	cfparse.h	/^	double fl;$/;"	m	union:YYSTYPE
+flags	cfparse.c	/^		unsigned int flags;$/;"	m	union:attr_list::__anon9	file:
+flags	mrt.h	/^	u_int16	flags;			\/* The MRTF_* flags                 *\/$/;"	m	struct:mrtentry
+flags	pimd.h	/^    u_int8      flags;$/;"	m	struct:pim6_encod_src_addr_
+flex_int16_t	cftoken.c	/^typedef int16_t flex_int16_t;$/;"	t	file:
+flex_int16_t	cftoken.c	/^typedef short int flex_int16_t;$/;"	t	file:
+flex_int32_t	cftoken.c	/^typedef int flex_int32_t;$/;"	t	file:
+flex_int32_t	cftoken.c	/^typedef int32_t flex_int32_t;$/;"	t	file:
+flex_int8_t	cftoken.c	/^typedef int8_t flex_int8_t;$/;"	t	file:
+flex_int8_t	cftoken.c	/^typedef signed char flex_int8_t;$/;"	t	file:
+flex_uint16_t	cftoken.c	/^typedef uint16_t flex_uint16_t;$/;"	t	file:
+flex_uint16_t	cftoken.c	/^typedef unsigned short int flex_uint16_t;$/;"	t	file:
+flex_uint32_t	cftoken.c	/^typedef uint32_t flex_uint32_t;$/;"	t	file:
+flex_uint32_t	cftoken.c	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
+flex_uint8_t	cftoken.c	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
+flex_uint8_t	cftoken.c	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
+foreground	main.c	/^static int		foreground = 0;$/;"	v	file:
+fragment_tag	mrt.h	/^	u_int16	fragment_tag;	\/* Used for garbage collection    *\/$/;"	m	struct:grp_mask
+fragment_tag	mrt.h	/^	u_int16	fragment_tag;   \/* fragment tag from the received BSR message *\/$/;"	m	struct:rp_grp_entry
+free_all_callouts	callout.c	/^free_all_callouts()$/;"	f
+free_attr_list	cfparse.c	/^free_attr_list(list)$/;"	f	file:
+from	mld6.c	/^static struct sockaddr_in6 	from;$/;"	v	typeref:struct:sockaddr_in6	file:
+from	pim6.c	/^static struct sockaddr_in6 from;$/;"	v	typeref:struct:sockaddr_in6	file:
+func	callout.c	/^    cfunc_t         func;	\/* function to call *\/$/;"	m	struct:timeout_q	file:
+func	main.c	/^    ihfunc_t        func;	\/* Function to call with &fd_set *\/$/;"	m	struct:ihandler	file:
+g	mld6_proto.h	/^	struct listaddr *g;$/;"	m	struct:__anon11	typeref:struct:__anon11::listaddr
+genid	mrt.h	/^	u_int32			genid;	\/* GenID *\/$/;"	m	struct:pim_nbr_entry
+genid	pim6_proto.c	/^    u_int32 genid;		\/* SHOULD *\/$/;"	m	struct:pim_hello_options	file:
+getCommonConfig	config.c	/^struct Config *getCommonConfig() {$/;"	f
+get_iif	route.c	/^get_iif(address)$/;"	f
+get_jp6_working_buff	pim6_proto.c	/^get_jp6_working_buff()$/;"	f	file:
+get_sa_len	inet6.c	/^get_sa_len(struct sockaddr *addr)$/;"	f
+getmsg	netlink.c	/^getmsg(struct rtmsg *rtm, int msglen, struct rpfctl *rpf)$/;"	f	file:
+getmsg	routesock.c	/^getmsg(rtm, msglen, rpfinfop)$/;"	f
+granularity	cfparse.c	/^static int srcmetric, srcpref, helloperiod, jpperiod, granularity,$/;"	v	file:
+group	mld6v2.h	/^    struct in6_addr group;	\/* Multicast Address *\/$/;"	m	struct:mld_group_record_hdr	typeref:struct:mld_group_record_hdr::in6_addr
+group	mrt.h	/^	grp_mask_t*group;	\/* Pointer to (group,mask) entry *\/$/;"	m	struct:rp_grp_entry
+group	mrt.h	/^	struct grpentry *group;		\/* pointer to group entry           *\/$/;"	m	struct:mrtentry	typeref:struct:mrtentry::grpentry
+group	mrt.h	/^	struct sockaddr_in6 group;	\/* subnet group of multicasts        *\/$/;"	m	struct:grpentry	typeref:struct:grpentry::sockaddr_in6
+group	mrt.h	/^	struct sockaddr_in6 group;$/;"	m	struct:kernel_cache	typeref:struct:kernel_cache::sockaddr_in6
+group_addr	mrt.h	/^	struct sockaddr_in6 	group_addr;$/;"	m	struct:grp_mask	typeref:struct:grp_mask::sockaddr_in6
+group_mask	mrt.h	/^	struct in6_addr 	group_mask;$/;"	m	struct:grp_mask	typeref:struct:grp_mask::in6_addr
+group_rp_number	mrt.h	/^	u_int8	group_rp_number;	\/* Used when assembling segments  *\/$/;"	m	struct:grp_mask
+grp_mask	mrt.h	/^typedef struct grp_mask {$/;"	s
+grp_mask_list	rp.c	/^grp_mask_t     			*grp_mask_list;$/;"	v
+grp_mask_t	mrt.h	/^} grp_mask_t;$/;"	t	typeref:struct:grp_mask
+grp_prefix	cfparse.c	/^static struct attr_list *rp_attr, *bsr_attr, *grp_prefix, *regthres_attr,$/;"	v	typeref:struct:	file:
+grp_prefix_config	cfparse.c	/^grp_prefix_config()$/;"	f
+grp_route	mrt.h	/^	struct mrtentry *grp_route;	\/* Pointer to the (*,G) routing entry*\/$/;"	m	struct:grpentry	typeref:struct:grpentry::mrtentry
+grp_rp_next	mrt.h	/^	struct rp_grp_entry 	*grp_rp_next;	\/* Next entry for same grp prefix *\/$/;"	m	struct:rp_grp_entry	typeref:struct:rp_grp_entry::rp_grp_entry
+grp_rp_next	mrt.h	/^	struct rp_grp_entry 	*grp_rp_next;$/;"	m	struct:grp_mask	typeref:struct:grp_mask::rp_grp_entry
+grp_rp_prev	mrt.h	/^	struct rp_grp_entry 	*grp_rp_prev;	\/* Prev entry for same grp prefix *\/$/;"	m	struct:rp_grp_entry	typeref:struct:rp_grp_entry::rp_grp_entry
+grpentry	mrt.h	/^typedef struct grpentry {$/;"	s
+grpentry_t	mrt.h	/^} grpentry_t;$/;"	t	typeref:struct:grpentry
+grplink	mrt.h	/^	struct grpentry		*grplink; 	\/* Link to all grps via this entry*\/	$/;"	m	struct:rp_grp_entry	typeref:struct:rp_grp_entry::grpentry
+grplist	mrt.c	/^grpentry_t     *grplist;$/;"	v
+grpnext	mrt.h	/^	struct mrtentry	*grpnext;	\/* next entry of same group         *\/$/;"	m	struct:mrtentry	typeref:struct:mrtentry::mrtentry
+grpprev	mrt.h	/^	struct mrtentry	*grpprev;	\/* prev entry of same group         *\/$/;"	m	struct:mrtentry	typeref:struct:mrtentry::mrtentry
+gwaddr	routesock.h	/^	struct sockaddr_in6 gwaddr;$/;"	m	struct:staticrt	typeref:struct:staticrt::sockaddr_in6
+handler	main.c	/^handler(sig)$/;"	f	file:
+hash_mask	mrt.h	/^	struct in6_addr 	hash_mask;$/;"	m	struct:grp_mask	typeref:struct:grp_mask::in6_addr
+helloperiod	cfparse.c	/^static int srcmetric, srcpref, helloperiod, jpperiod, granularity,$/;"	v	file:
+helloperiod_coef	cfparse.c	/^static double helloperiod_coef, jpperiod_coef;$/;"	v	file:
+hi	vif.h	/^	NBRTYPE hi;$/;"	m	struct:__anon5
+holdtime	mrt.h	/^	u_int16 holdtime;		\/* Join\/Prune message holdtime field *\/$/;"	m	struct:build_jp_message
+holdtime	mrt.h	/^	u_int16 holdtime;	\/* RP holdtime (will be aged) *\/$/;"	m	struct:rp_grp_entry
+holdtime	pim6_proto.c	/^    int holdtime;		\/* mandatory *\/$/;"	m	struct:pim_hello_options	file:
+holdtime	pimd.h	/^    u_int16    holdtime;$/;"	m	struct:pim_jp_header_
+host_alias	Makefile	/^host_alias = $/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+ibytes	mrt.h	/^    u_long ibytes;        \/* Input byte count on vif *\/$/;"	m	struct:vif_count
+icount	mrt.h	/^    u_long icount;        \/* Input packet count on vif  *\/$/;"	m	struct:vif_count
+id	callout.c	/^    int             id;$/;"	m	struct:timeout_q	file:
+id	callout.c	/^static int      	id = 0;$/;"	v	file:
+if_nullset	vif.c	/^if_set			if_nullset;$/;"	v
+if_result	vif.c	/^if_set			if_result;$/;"	v
+ifindex2str	inet6.c	/^ifindex2str(int ifindex)$/;"	f
+ihandler	main.c	/^static struct ihandler$/;"	s	file:
+ihandlers	main.c	/^}	ihandlers[NHANDLERS];$/;"	v	typeref:struct:ihandler	file:
+ihfunc_t	defs.h	/^typedef	void	( *ihfunc_t )		__P( ( int , fd_set * ) );$/;"	t
+iif	vif.h	/^    mifi_t iif; \/* the incoming interface to reach the next hop *\/$/;"	m	struct:rpfctl
+in6_pktinfo	mld6.h	/^struct in6_pktinfo {$/;"	s
+in6_prefix	cfparse.c	/^struct in6_prefix {$/;"	s	file:
+in6addr_linklocal_allnodes	mld6.h	/^static const struct in6_addr in6addr_linklocal_allnodes = IN6ADDR_LINKLOCAL_ALLNODES_INIT;$/;"	v	typeref:struct:in6_addr
+in_pim6_cand_rp	pimd.h	/^	u_quad_t in_pim6_cand_rp;$/;"	m	struct:pim6dstat
+in_pim6_graft	pimd.h	/^	u_quad_t in_pim6_graft; \/* for dense mode only *\/$/;"	m	struct:pim6dstat
+in_pim6_graft_ack	pimd.h	/^	u_quad_t in_pim6_graft_ack; \/* for dense mode only  *\/$/;"	m	struct:pim6dstat
+in_pim6_register	pimd.h	/^	u_quad_t in_pim6_register;$/;"	m	struct:pim6dstat
+in_pim6_register_stop	pimd.h	/^	u_quad_t in_pim6_register_stop;$/;"	m	struct:pim6dstat
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+incoming	mrt.h	/^	mifi_t incoming;		\/* incoming vif *\/$/;"	m	struct:srcentry
+incoming	mrt.h	/^	mifi_t incoming;		\/* the iif (either toward S or RP)  *\/$/;"	m	struct:mrtentry
+inet6_equal	inet6.c	/^inet6_equal(struct sockaddr_in6 * sa1, struct sockaddr_in6 * sa2)$/;"	f
+inet6_fmt	inet6.c	/^inet6_fmt(struct in6_addr * addr)$/;"	f
+inet6_greaterthan	inet6.c	/^inet6_greaterthan(struct sockaddr_in6 * sa1, struct sockaddr_in6 * sa2)$/;"	f
+inet6_lessthan	inet6.c	/^inet6_lessthan(struct sockaddr_in6 * sa1, struct sockaddr_in6 * sa2)$/;"	f
+inet6_localif_address	inet6.c	/^inet6_localif_address(struct sockaddr_in6 * sa, struct uvif * v)$/;"	f
+inet6_mask2plen	inet6.c	/^inet6_mask2plen(struct in6_addr * mask)$/;"	f
+inet6_match_prefix	inet6.c	/^inet6_match_prefix(sa1, sa2, mask)$/;"	f
+inet6_same_prefix	inet6.c	/^inet6_same_prefix(sa1,sa2,mask)$/;"	f
+inet6_uvif2scopeid	inet6.c	/^inet6_uvif2scopeid(struct sockaddr_in6 * sa, struct uvif * v)$/;"	f
+inet6_valid_host	inet6.c	/^inet6_valid_host(struct sockaddr_in6 * addr)$/;"	f
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+initCommonConfig	config.c	/^void initCommonConfig() {$/;"	f
+init_bsr6	rp.c	/^init_bsr6()$/;"	f
+init_mld6	mld6.c	/^init_mld6()$/;"	f
+init_pim6	pim6.c	/^init_pim6()$/;"	f
+init_pim6_mrt	mrt.c	/^init_pim6_mrt()$/;"	f
+init_reg_vif	vif.c	/^int init_reg_vif()$/;"	f
+init_routesock	netlink.c	/^init_routesock(void)$/;"	f
+init_routesock	routesock.c	/^init_routesock()$/;"	f
+init_rp6	rp.c	/^init_rp6()$/;"	f
+init_sin6	inet6.c	/^init_sin6(struct sockaddr_in6 *sin6)$/;"	f
+init_timers	timer.c	/^init_timers()$/;"	f
+init_vifs	vif.c	/^void init_vifs()$/;"	f
+insert_data_ptr	rp.h	/^	u_int8					*insert_data_ptr;$/;"	m	struct:cand_rp_adv_message_
+insert_grpmrtlink	mrt.c	/^insert_grpmrtlink(mrtentry_new, mrtentry_prev, grpentry_ptr)$/;"	f	file:
+insert_srcmrtlink	mrt.c	/^insert_srcmrtlink(mrtentry_new, mrtentry_prev, srcentry_ptr)$/;"	f	file:
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/lolshvax\/Mcast\/mcast-tools\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+ipi6_addr	mld6.h	/^   struct in6_addr ipi6_addr;$/;"	m	struct:in6_pktinfo	typeref:struct:in6_pktinfo::in6_addr
+ipi6_ifindex	mld6.h	/^   int             ipi6_ifindex;$/;"	m	struct:in6_pktinfo
+join_addr_number	mrt.h	/^	u_int16	join_addr_number;	\/* Number of join addresses in join_list *\/$/;"	m	struct:build_jp_message
+join_list	mrt.h	/^	u_int8 	*join_list;		\/* working area for join addresses *\/$/;"	m	struct:build_jp_message
+join_list_size	mrt.h	/^	u_int32	join_list_size;		\/* size of join_list in bytes *\/$/;"	m	struct:build_jp_message
+join_or_prune	pim6_proto.c	/^join_or_prune(mrtentry_ptr, upstream_router)$/;"	f
+joined_oifs	mrt.h	/^	if_set joined_oifs;		\/* The joined oifs (Join received)  *\/$/;"	m	struct:mrtentry
+jp_message	mrt.h	/^	u_int8 	*jp_message;		\/* The Join\/Prune message *\/$/;"	m	struct:build_jp_message
+jp_message_size	mrt.h	/^	u_int32 jp_message_size;	\/* Size of Join\/Prune message in bytes *\/$/;"	m	struct:build_jp_message
+jp_timer	mrt.h	/^	u_int16	jp_timer;		\/* The Join\/Prune timer             *\/$/;"	m	struct:mrtentry
+jpperiod	cfparse.c	/^static int srcmetric, srcpref, helloperiod, jpperiod, granularity,$/;"	v	file:
+jpperiod_coef	cfparse.c	/^static double helloperiod_coef, jpperiod_coef;$/;"	v	file:
+k_add_mfc	kern.c	/^k_add_mfc(socket, source, group, iif, oifs )$/;"	f
+k_add_vif	kern.c	/^k_add_vif(int socket, mifi_t vifi, struct uvif * v)$/;"	f
+k_chg_mfc	kern.c	/^k_chg_mfc(socket, source, group, iif, oifs, rp_addr)$/;"	f
+k_del_mfc	kern.c	/^k_del_mfc(int socket, struct sockaddr_in6 * source, struct sockaddr_in6 * group)$/;"	f
+k_del_vif	kern.c	/^k_del_vif(int socket, mifi_t vifi)$/;"	f
+k_get_sg_cnt	kern.c	/^k_get_sg_cnt(socket, source, group, retval)$/;"	f
+k_get_vif_count	kern.c	/^k_get_vif_count(vifi, retval)$/;"	f
+k_init_pim	kern.c	/^k_init_pim(int socket)$/;"	f
+k_join	kern.c	/^k_join(int socket, struct in6_addr * grp, u_int ifindex)$/;"	f
+k_join_src	kern.c	/^k_join_src(int socket, struct in6_addr * grp, struct in6_addr * m_source, u_int ifindex)$/;"	f
+k_leave	kern.c	/^k_leave(int socket, struct in6_addr * grp, u_int ifindex)$/;"	f
+k_leave_src	kern.c	/^k_leave_src(int socket, struct in6_addr * grp, struct in6_addr * m_source, u_int ifindex)$/;"	f
+k_req_incoming	netlink.c	/^k_req_incoming(struct sockaddr_in6 *source, struct rpfctl *rpf)$/;"	f
+k_req_incoming	routesock.c	/^k_req_incoming(source, rpfp)$/;"	f
+k_set_hlim	kern.c	/^k_set_hlim(int socket, int h)$/;"	f
+k_set_if	kern.c	/^k_set_if(int socket, u_int ifindex)$/;"	f
+k_set_loop	kern.c	/^k_set_loop(int socket, int flag)$/;"	f
+k_set_rcvbuf	kern.c	/^k_set_rcvbuf(int socket, int bufsize, int minsize)$/;"	f
+k_stop_pim	kern.c	/^k_stop_pim(socket)$/;"	f
+kern_add_cache	pimd.h	/^	u_quad_t kern_add_cache;$/;"	m	struct:pim6dstat
+kern_add_cache_fail	pimd.h	/^    	u_quad_t kern_add_cache_fail;$/;"	m	struct:pim6dstat
+kern_del_cache	pimd.h	/^	u_quad_t kern_del_cache;$/;"	m	struct:pim6dstat
+kern_del_cache_fail	pimd.h	/^    	u_quad_t kern_del_cache_fail;$/;"	m	struct:pim6dstat
+kern_sgcnt_fail	pimd.h	/^	u_quad_t kern_sgcnt_fail;$/;"	m	struct:pim6dstat
+kernel_cache	mrt.h	/^	struct 	kernel_cache *kernel_cache;	\/* List of the kernel cache entries *\/$/;"	m	struct:mrtentry	typeref:struct:mrtentry::kernel_cache
+kernel_cache	mrt.h	/^typedef struct kernel_cache {$/;"	s
+kernel_cache_check_interval	timer.c	/^u_int16         kernel_cache_check_interval;$/;"	v
+kernel_cache_t	mrt.h	/^} kernel_cache_t;$/;"	t	typeref:struct:kernel_cache
+kernel_cache_timer	timer.c	/^u_int16         kernel_cache_timer;	\/* Used to timeout the kernel cache$/;"	v
+l	vmbuf.h	/^	size_t l;	\/* length of the value *\/$/;"	m	struct:_vchar_
+leaves	mrt.h	/^	if_set leaves;			\/* Has directly connected members   *\/$/;"	m	struct:mrtentry
+level	main.c	/^    int             level;$/;"	m	struct:debugname	file:
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+lineno	cftoken.c	/^int lineno = 1;$/;"	v
+link	routesock.h	/^	TAILQ_ENTRY(staticrt) link;$/;"	m	struct:staticrt
+listaddr	vif.h	/^struct listaddr {$/;"	s
+lo	vif.h	/^	NBRTYPE lo;$/;"	m	struct:__anon5
+loadConfig	config.c	/^int loadConfig(char *configFile) {$/;"	f
+local_address	vif.c	/^local_address(src)$/;"	f
+local_iface	vif.c	/^local_iface(char *ifname)$/;"	f
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+log_fp	main.c	/^FILE			*log_fp;$/;"	v
+log_level	debug.c	/^log_level(proto, type, code)$/;"	f
+log_msg	debug.c	/^log_msg(int severity, int syserr, char *format, ...)$/;"	f
+log_nmsgs	debug.c	/^int             log_nmsgs = 0;$/;"	v
+logfilename	main.c	/^char			logfilename[256] = _PATH_PIM6D_LOGFILE;$/;"	v
+m_rtm	routesock.c	/^    struct rt_msghdr m_rtm;$/;"	m	struct:__anon8	typeref:struct:__anon8::rt_msghdr	file:
+m_rtmsg	routesock.c	/^}               m_rtmsg;$/;"	v	typeref:struct:__anon8
+m_space	routesock.c	/^    char            m_space[512];$/;"	m	struct:__anon8	file:
+main	main.c	/^main(argc, argv)$/;"	f
+make_crc_table	crc.c	/^static void make_crc_table(void)$/;"	f	file:
+make_mld6_msg	mld6.c	/^make_mld6_msg(type, code, src, dst, group, ifindex, delay, datalen, alert)$/;"	f	file:
+make_mld6v2_msg	mld6v2.c	/^make_mld6v2_msg(int type, int code, struct sockaddr_in6 *src,$/;"	f	file:
+man1_MANS	Makefile	/^man1_MANS = pim6stat.1$/;"	m
+man1dir	Makefile	/^man1dir = $(mandir)\/man1$/;"	m
+man5_MANS	Makefile	/^man5_MANS = pim6sd.conf.5$/;"	m
+man5dir	Makefile	/^man5dir = $(mandir)\/man5$/;"	m
+man8_MANS	Makefile	/^man8_MANS = pim6sd.8$/;"	m
+man8dir	Makefile	/^man8dir = $(mandir)\/man8$/;"	m
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+masklen	pimd.h	/^    u_int8      masklen;$/;"	m	struct:pim6_encod_grp_addr_
+masklen	pimd.h	/^    u_int8      masklen;$/;"	m	struct:pim6_encod_src_addr_
+max	defs.h	60;"	d
+max_global_address	vif.c	/^max_global_address()$/;"	f
+mcast_addr	pimd.h	/^    struct in6_addr     mcast_addr;$/;"	m	struct:pim6_encod_grp_addr_	typeref:struct:pim6_encod_grp_addr_::in6_addr
+message_size	rp.h	/^	u_int16					message_size;$/;"	m	struct:cand_rp_adv_message_
+metric	mrt.h	/^	u_int32	metric;		\/* Unicast Routing Metric to the source *\/$/;"	m	struct:srcentry
+metric	mrt.h	/^	u_int32 metric;		\/* Routing Metric for this entry *\/$/;"	m	struct:mrtentry
+mif_name	vif.c	/^mif_name(mifi)$/;"	f
+mifi	mld6_proto.h	/^	mifi_t mifi;$/;"	m	struct:__anon11
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mld6_read	mld6.c	/^mld6_read(i, rfd)$/;"	f	file:
+mld6_recv_buf	mld6.c	/^char *mld6_recv_buf;		\/* input packet buffer *\/$/;"	v
+mld6_send_buf	mld6.c	/^char *mld6_send_buf;		\/* output packet buffer *\/$/;"	v
+mld6_socket	mld6.c	/^int mld6_socket;		\/* socket for all network I\/O *\/$/;"	v
+mld_addr	mld6.h	/^	struct in6_addr	mld_addr;$/;"	m	struct:mld_hdr	typeref:struct:mld_hdr::in6_addr
+mld_addr	mld6.h	110;"	d
+mld_addr	mld6v2.h	/^    struct in6_addr mld_addr;	\/* Multicast Address *\/$/;"	m	struct:mldv2_hdr	typeref:struct:mldv2_hdr::in6_addr
+mld_cksum	mld6.h	113;"	d
+mld_code	mld6.h	101;"	d
+mld_code	mld6.h	108;"	d
+mld_group_record_hdr	mld6v2.h	/^struct mld_group_record_hdr {	\/* Multicast Address Record  *\/$/;"	s
+mld_grpnum	mld6v2.h	80;"	d
+mld_hdr	mld6.h	/^struct mld_hdr {$/;"	s
+mld_hdr	mld6.h	106;"	d
+mld_icmp6_hdr	mld6.h	/^	struct icmp6_hdr mld_icmp6_hdr;$/;"	m	struct:mld_hdr	typeref:struct:mld_hdr::icmp6_hdr
+mld_icmp6hdr	mld6v2.h	/^    struct icmp6_hdr	mld_icmp6hdr;	\/* version & type of MLD message *\/$/;"	m	struct:mld_report_hdr	typeref:struct:mld_report_hdr::icmp6_hdr
+mld_icmp6hdr	mld6v2.h	/^    struct icmp6_hdr mld_icmp6hdr;	\/* Standard ICMP header *\/$/;"	m	struct:mldv2_hdr	typeref:struct:mldv2_hdr::icmp6_hdr
+mld_maxdelay	mld6.h	102;"	d
+mld_maxdelay	mld6.h	109;"	d
+mld_numsrc	mld6v2.h	/^    u_int16         mld_numsrc;	\/* Number of Sources *\/$/;"	m	struct:mldv2_hdr
+mld_qqi	mld6v2.h	/^    u_int8          mld_qqi;	\/* QQIC *\/$/;"	m	struct:mldv2_hdr
+mld_report_hdr	mld6v2.h	/^struct mld_report_hdr {	\/* Multicast Report *\/$/;"	s
+mld_reserved	mld6.h	114;"	d
+mld_rtval	mld6v2.h	/^    u_int8          mld_rtval;	\/* Resv+S+QRV *\/$/;"	m	struct:mldv2_hdr
+mld_shift_to_v2mode	mld6v2_proto.c	/^mld_shift_to_v2mode(arg)$/;"	f
+mld_src	mld6v2.h	/^    struct in6_addr mld_src[1];	\/* Sources Addresses List *\/$/;"	m	struct:mldv2_hdr	typeref:struct:mldv2_hdr::in6_addr
+mld_type	mld6.h	100;"	d
+mld_type	mld6.h	107;"	d
+mldv2_hdr	mld6v2.h	/^struct mldv2_hdr {	\/* MLDv2 Header *\/$/;"	s
+move_kernel_cache	mrt.c	/^move_kernel_cache(mrtentry_ptr, flags)$/;"	f	file:
+mrtentry	mrt.h	/^typedef struct mrtentry {$/;"	s
+mrtentry_t	mrt.h	/^} mrtentry_t;$/;"	t	typeref:struct:mrtentry
+mrtlink	mrt.h	/^	struct mrtentry *mrtlink;	\/* link to (S,G) routing entries     *\/$/;"	m	struct:grpentry	typeref:struct:grpentry::mrtentry
+mrtlink	mrt.h	/^	struct mrtentry *mrtlink;	\/* link to routing entries *\/$/;"	m	struct:srcentry	typeref:struct:srcentry::mrtentry
+my_bsr_address	rp.c	/^struct sockaddr_in6		my_bsr_address;$/;"	v	typeref:struct:sockaddr_in6
+my_bsr_hash_mask	rp.c	/^struct in6_addr         	my_bsr_hash_mask;$/;"	v	typeref:struct:in6_addr
+my_bsr_period	rp.c	/^u_int16         		my_bsr_period;		\/* The locally configured BSR	$/;"	v
+my_bsr_priority	rp.c	/^u_int8          		my_bsr_priority;$/;"	v
+my_cand_rp_address	rp.c	/^struct sockaddr_in6     	my_cand_rp_address;$/;"	v	typeref:struct:sockaddr_in6
+my_cand_rp_adv_period	rp.c	/^u_int16         		my_cand_rp_adv_period;	\/* The locally configured Cand-RP$/;"	v
+my_cand_rp_holdtime	rp.c	/^u_int16         		my_cand_rp_holdtime;$/;"	v
+my_cand_rp_priority	rp.c	/^u_int8          		my_cand_rp_priority;$/;"	v
+name	config.c	/^    char*               name;$/;"	m	struct:vifconfig	file:
+name	main.c	/^    char           *name;$/;"	m	struct:debugname	file:
+nbrbitmap_t	vif.h	/^} nbrbitmap_t;$/;"	t	typeref:struct:__anon5
+nchars	main.c	/^    int             nchars;$/;"	m	struct:debugname	file:
+net6name	inet6.c	/^net6name(struct in6_addr *prefix, struct in6_addr *mask)$/;"	f
+next	callout.c	/^    struct timeout_q *next;	\/* next event *\/$/;"	m	struct:timeout_q	typeref:struct:timeout_q::timeout_q	file:
+next	cfparse.c	/^	struct attr_list *next;$/;"	m	struct:attr_list	typeref:struct:attr_list::attr_list	file:
+next	config.c	/^    struct vifconfig*   next;$/;"	m	struct:vifconfig	typeref:struct:vifconfig::vifconfig	file:
+next	mrt.h	/^	struct build_jp_message	*next;	\/* Used to chain the free entries *\/$/;"	m	struct:build_jp_message	typeref:struct:build_jp_message::build_jp_message
+next	mrt.h	/^	struct cand_rp 	*next;		\/* Next candidate RP *\/$/;"	m	struct:cand_rp	typeref:struct:cand_rp::cand_rp
+next	mrt.h	/^	struct grp_mask 	*next;$/;"	m	struct:grp_mask	typeref:struct:grp_mask::grp_mask
+next	mrt.h	/^	struct grpentry *next;		\/* link to next entry                *\/$/;"	m	struct:grpentry	typeref:struct:grpentry::grpentry
+next	mrt.h	/^	struct kernel_cache *next;$/;"	m	struct:kernel_cache	typeref:struct:kernel_cache::kernel_cache
+next	mrt.h	/^	struct pim_nbr_entry 	*next; \/* link to next neighbor *\/$/;"	m	struct:pim_nbr_entry	typeref:struct:pim_nbr_entry::pim_nbr_entry
+next	mrt.h	/^	struct srcentry *next;		\/* link to next entry *\/$/;"	m	struct:srcentry	typeref:struct:srcentry::srcentry
+nhandlers	main.c	/^static int      nhandlers = 0;$/;"	v	file:
+nmcastrcd	mld6v2.h	74;"	d
+noinst_HEADERS	Makefile	/^noinst_HEADERS = callout.h cfparse-defs.h cfparse.h config.h crc.h debug.h defs.h inet6.h kern.h mld6.h mld6_proto.h mld6v2.h mld6v2_proto.h mrt.h pathnames.h pim6.h pim6_proto.h pimd.h route.h routesock.h rp.h timer.h trace.h var.h vif.h vmbuf.h$/;"	m
+num	cfparse.c	/^	unsigned long num;$/;"	m	union:YYSTYPE	file:
+num	cfparse.h	/^	unsigned long num;$/;"	m	union:YYSTYPE
+num_groups	pimd.h	/^    u_int8     num_groups;$/;"	m	struct:pim_jp_header_
+num_groups_ptr	mrt.h	/^	u_int8 *num_groups_ptr;	\/* Pointer to number_of_groups in jp_message  *\/$/;"	m	struct:build_jp_message
+number	cfparse.c	/^		double number;$/;"	m	union:attr_list::__anon9	file:
+number_join_src	pimd.h	/^    u_int16                number_join_src;$/;"	m	struct:pim_jp_encod_grp_
+number_prune_src	pimd.h	/^    u_int16                number_prune_src;$/;"	m	struct:pim_jp_encod_grp_
+numerichost	inet6.c	/^int numerichost = TRUE;$/;"	v
+numsrc	mld6v2.h	/^    u_int16         numsrc;	\/* Number of Sources *\/$/;"	m	struct:mld_group_record_hdr
+numvifs	vif.c	/^mifi_t numvifs;				\/*total number of interface *\/$/;"	v
+obytes	mrt.h	/^    u_long obytes;        \/* Output byte count on vif *\/$/;"	m	struct:vif_count
+ocount	mrt.h	/^    u_long ocount;        \/* Output packet count on vif *\/$/;"	m	struct:vif_count
+oifs	mrt.h	/^	if_set oifs;			\/* The current result oifs          *\/$/;"	m	struct:mrtentry
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+option_length	pimd.h	/^    u_int16     option_length; \/* Length of the Option Value field in bytes *\/$/;"	m	struct:pim_hello_
+option_type	pimd.h	/^    u_int16     option_type;   \/* Option type *\/$/;"	m	struct:pim_hello_
+options_bitmap	mrt.h	/^	int			options_bitmap;	\/* list of the include bitmaps *\/$/;"	m	struct:pim_nbr_entry
+origin	mrt.h	/^	u_int8	origin;		\/* Where it's learned from (smaller one is preferred) *\/$/;"	m	struct:rp_grp_entry
+out_pim6_cand_rp	pimd.h	/^	u_quad_t out_pim6_cand_rp;$/;"	m	struct:pim6dstat
+out_pim6_register	pimd.h	/^	u_quad_t out_pim6_register;$/;"	m	struct:pim6dstat
+out_pim6_register_stop	pimd.h	/^	u_quad_t out_pim6_register_stop;$/;"	m	struct:pim6dstat
+pa_addr	vif.h	/^	struct sockaddr_in6 	pa_addr;$/;"	m	struct:phaddr	typeref:struct:phaddr::sockaddr_in6
+pa_next	vif.h	/^	struct phaddr 		*pa_next;$/;"	m	struct:phaddr	typeref:struct:phaddr::phaddr
+pa_prefix	vif.h	/^	struct sockaddr_in6 	pa_prefix;$/;"	m	struct:phaddr	typeref:struct:phaddr::sockaddr_in6
+pa_rmt_addr	vif.h	/^	struct sockaddr_in6 	pa_rmt_addr;	\/* valid only in case of P2P I\/F *\/$/;"	m	struct:phaddr	typeref:struct:phaddr::sockaddr_in6
+pa_subnetmask	vif.h	/^	struct in6_addr 	pa_subnetmask;$/;"	m	struct:phaddr	typeref:struct:phaddr::in6_addr
+pack_and_send_jp6_message	pim6_proto.c	/^pack_and_send_jp6_message(pim_nbr)$/;"	f
+pack_jp6_message	pim6_proto.c	/^pack_jp6_message(pim_nbr)$/;"	f	file:
+packet_kind	debug.c	/^packet_kind(proto, type, code)$/;"	f
+paddr	cfparse.c	/^	struct in6_addr paddr;$/;"	m	struct:in6_prefix	typeref:struct:in6_prefix::in6_addr	file:
+paddr	routesock.h	/^	struct sockaddr_in6 paddr;$/;"	m	struct:staticrt	typeref:struct:staticrt::sockaddr_in6
+paddr	rp.h	/^	struct sockaddr_in6 paddr;$/;"	m	struct:staticrp	typeref:struct:staticrp::sockaddr_in6
+param_config	cfparse.c	/^param_config()$/;"	f	file:
+parsePhyintToken	config.c	/^struct vifconfig *parsePhyintToken() {$/;"	f
+parseSubnetAddress	config.c	/^struct SubnetList *parseSubnetAddress(char *addrstr) {$/;"	f
+parse_pim6_hello	pim6_proto.c	/^parse_pim6_hello(pim_message, datalen, src, opts)$/;"	f	file:
+parse_rtattr	netlink.c	/^parse_rtattr(struct rtattr *tb[], int max, struct rtattr *rta, int len)$/;"	f	file:
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+ph	pim6.c	/^    } ph;   $/;"	m	union:__anon3	typeref:struct:__anon3::__anon4	file:
+ph_len	pim6.c	/^        u_int32_t ph_len; $/;"	m	struct:__anon3::__anon4	file:
+ph_nxt	pim6.c	/^        u_int8_t ph_nxt; $/;"	m	struct:__anon3::__anon4	file:
+ph_zero	pim6.c	/^        u_int8_t ph_zero[3];$/;"	m	struct:__anon3::__anon4	file:
+phaddr	vif.h	/^struct phaddr {$/;"	s
+phs	pim6.c	/^    u_int16_t phs[4]; $/;"	m	union:__anon3	file:
+phyint_config	cfparse.c	/^phyint_config()$/;"	f	file:
+phys_vif	vif.c	/^int phys_vif; \/* An enabled vif that has a global address *\/$/;"	v
+pid	netlink.c	/^pid_t pid;$/;"	v
+pid	routesock.c	/^                pid;$/;"	v
+pidfilename	main.c	/^static char     	pidfilename[] = _PATH_PIM6D_PID;$/;"	v	file:
+pim6_bootstrap_timo	pimd.h	/^	u_quad_t pim6_bootstrap_timo;\/* pim_bootstrap_timer *\/$/;"	m	struct:pim6dstat
+pim6_cksum	pim6.c	/^int pim6_cksum(u_int16_t *addr, struct in6_addr *src ,struct in6_addr *dst , int len )$/;"	f
+pim6_encod_grp_addr_	pimd.h	/^typedef struct pim6_encod_grp_addr_ {$/;"	s
+pim6_encod_grp_addr_t	pimd.h	/^} pim6_encod_grp_addr_t;$/;"	t	typeref:struct:pim6_encod_grp_addr_
+pim6_encod_src_addr_	pimd.h	/^typedef struct pim6_encod_src_addr_ {$/;"	s
+pim6_encod_src_addr_t	pimd.h	/^} pim6_encod_src_addr_t;$/;"	t	typeref:struct:pim6_encod_src_addr_
+pim6_encod_uni_addr_	pimd.h	/^typedef struct pim6_encod_uni_addr_ {$/;"	s
+pim6_encod_uni_addr_t	pimd.h	/^} pim6_encod_uni_addr_t;$/;"	t	typeref:struct:pim6_encod_uni_addr_
+pim6_read	pim6.c	/^pim6_read(f, rfd)$/;"	f	file:
+pim6_recv_buf	pim6.c	/^char *pim6_recv_buf;$/;"	v
+pim6_rpgrp_timo	pimd.h	/^	u_quad_t pim6_rpgrp_timo; \/* rp_grp_entry_ptr->holdtime *\/$/;"	m	struct:pim6dstat
+pim6_rtentry_timo	pimd.h	/^	u_quad_t pim6_rtentry_timo; \/* routing entry *\/$/;"	m	struct:pim6dstat
+pim6_send_buf	pim6.c	/^char *pim6_send_buf;$/;"	v
+pim6_socket	pim6.c	/^int pim6_socket;$/;"	v
+pim6_trans_spt_forward	pimd.h	/^	u_quad_t pim6_trans_spt_forward;$/;"	m	struct:pim6dstat
+pim6_trans_spt_rp	pimd.h	/^	u_quad_t pim6_trans_spt_rp;$/;"	m	struct:pim6dstat
+pim6dstat	pim6_proto.c	/^struct pim6dstat pim6dstat;$/;"	v	typeref:struct:pim6dstat
+pim6dstat	pimd.h	/^struct pim6dstat {$/;"	s
+pim6sd_LDADD	Makefile	/^pim6sd_LDADD = $(LDADD)$/;"	m
+pim6sd_LIBS	Makefile	/^pim6sd_LIBS = -ly -ll -lfl  @LEXLIBS@$/;"	m
+pim6sd_OBJECTS	Makefile	/^pim6sd_OBJECTS = $(am_pim6sd_OBJECTS)$/;"	m
+pim6sd_SOURCES	Makefile	/^pim6sd_SOURCES = mld6.c mld6_proto.c mld6v2.c mld6v2_proto.c inet6.c kern.c main.c config.c debug.c vers.c callout.c route.c vif.c timer.c mrt.c pim6.c pim6_proto.c rp.c crc.c trace.c cfparse.y cftoken.l routesock.c netlink.c$/;"	m
+pim_assert_timeout	timer.c	/^u_int32			pim_assert_timeout=PIM_ASSERT_TIMEOUT;$/;"	v
+pim_bootstrap_timer	rp.c	/^u_int16         		pim_bootstrap_timer;	\/* For electing the BSR and sending$/;"	v
+pim_cand_rp_adv_timer	rp.c	/^u_int16         		pim_cand_rp_adv_timer;$/;"	v
+pim_data_rate_bytes	timer.c	/^u_int32         pim_data_rate_bytes =$/;"	v
+pim_data_rate_check_interval	timer.c	/^u_int32         pim_data_rate_check_interval = PIM_DEFAULT_DATA_RATE_INTERVAL;$/;"	v
+pim_data_rate_flag	timer.c	/^u_int8          pim_data_rate_flag;	\/* Used to indicate there was a$/;"	v
+pim_data_rate_timer	timer.c	/^u_int16         pim_data_rate_timer;	\/* Used to check periodically the$/;"	v
+pim_data_timeout	timer.c	/^u_int32			pim_data_timeout=PIM_DATA_TIMEOUT;$/;"	v
+pim_hello_	pimd.h	/^typedef struct pim_hello_ {$/;"	s
+pim_hello_holdtime	timer.c	/^u_int32			pim_hello_holdtime = PIM_TIMER_HELLO_HOLDTIME;$/;"	v
+pim_hello_options	pim6_proto.c	/^struct pim_hello_options {$/;"	s	file:
+pim_hello_period	timer.c	/^u_int32			pim_hello_period = PIM_TIMER_HELLO_PERIOD;$/;"	v
+pim_hello_t	pimd.h	/^} pim_hello_t;$/;"	t	typeref:struct:pim_hello_
+pim_join_prune_holdtime	timer.c	/^u_int32			pim_join_prune_holdtime = PIM_JOIN_PRUNE_HOLDTIME;$/;"	v
+pim_join_prune_period	timer.c	/^u_int32			pim_join_prune_period = PIM_JOIN_PRUNE_PERIOD;$/;"	v
+pim_jp_encod_grp_	pimd.h	/^typedef struct pim_jp_encod_grp_ {$/;"	s
+pim_jp_encod_grp_t	pimd.h	/^} pim_jp_encod_grp_t;$/;"	t	typeref:struct:pim_jp_encod_grp_
+pim_jp_header_	pimd.h	/^typedef struct pim_jp_header_ {$/;"	s
+pim_jp_header_t	pimd.h	/^} pim_jp_header_t;$/;"	t	typeref:struct:pim_jp_header_
+pim_nbr_entry	mrt.h	/^typedef struct pim_nbr_entry {$/;"	s
+pim_nbr_entry_t	mrt.h	/^} pim_nbr_entry_t;$/;"	t	typeref:struct:pim_nbr_entry
+pim_reg_rate_bytes	timer.c	/^u_int32         pim_reg_rate_bytes =$/;"	v
+pim_reg_rate_check_interval	timer.c	/^u_int32         pim_reg_rate_check_interval = PIM_DEFAULT_REG_RATE_INTERVAL;$/;"	v
+pim_reg_rate_flag	timer.c	/^u_int8          pim_reg_rate_flag;$/;"	v
+pim_reg_rate_timer	timer.c	/^u_int16         pim_reg_rate_timer;	\/* The same as above, but used by the$/;"	v
+pim_register_	pimd.h	/^typedef struct pim_register_ {$/;"	s
+pim_register_probe_time	timer.c	/^u_int32			pim_register_probe_time=PIM_REGISTER_PROBE_TIME;$/;"	v
+pim_register_stop_	pimd.h	/^typedef struct pim_register_stop_ {$/;"	s
+pim_register_stop_t	pimd.h	/^} pim_register_stop_t;$/;"	t	typeref:struct:pim_register_stop_
+pim_register_suppression_timeout	timer.c	/^u_int32			pim_register_suppression_timeout=PIM_REGISTER_SUPPRESSION_TIMEOUT;$/;"	v
+pim_register_t	pimd.h	/^} pim_register_t;$/;"	t	typeref:struct:pim_register_
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/mcast-tools$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/mcast-tools$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/mcast-tools$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/mcast-tools$/;"	m
+pktcnt	mrt.h	/^	u_quad_t pktcnt;	\/*  Number of packets for (s,g) *\/$/;"	m	struct:sg_count
+plen	cfparse.c	/^	int plen;$/;"	m	struct:in6_prefix	file:
+plen	routesock.h	/^	u_int8 plen;$/;"	m	struct:staticrt
+plen	rp.h	/^	u_int8 plen;$/;"	m	struct:staticrp
+pmbr_addr	mrt.h	/^	struct sockaddr_in6 pmbr_addr;	\/* The PMBR address (for interop)   *\/$/;"	m	struct:mrtentry	typeref:struct:mrtentry::sockaddr_in6
+preference	mrt.h	/^	u_int32	preference;	\/* The metric preference value      *\/$/;"	m	struct:mrtentry
+preference	mrt.h	/^	u_int32	preference;    \/* The metric preference (for assers)*\/		$/;"	m	struct:srcentry
+prefix	Makefile	/^prefix = \/home\/lolshvax\/Mcast\/usr\/mcast$/;"	m
+prefix	cfparse.c	/^		struct in6_prefix prefix;$/;"	m	union:attr_list::__anon9	typeref:struct:attr_list::__anon9::in6_prefix	file:
+prefix_cnt_ptr	rp.h	/^	u_int8					*prefix_cnt_ptr;$/;"	m	struct:cand_rp_adv_message_
+prev	mrt.h	/^	struct cand_rp 	*prev;		\/* Previous candidate RP *\/$/;"	m	struct:cand_rp	typeref:struct:cand_rp::cand_rp
+prev	mrt.h	/^	struct grp_mask 	*prev;$/;"	m	struct:grp_mask	typeref:struct:grp_mask::grp_mask
+prev	mrt.h	/^	struct grpentry *prev;		\/* link to prev entry                *\/$/;"	m	struct:grpentry	typeref:struct:grpentry::grpentry
+prev	mrt.h	/^	struct kernel_cache *prev;$/;"	m	struct:kernel_cache	typeref:struct:kernel_cache::kernel_cache
+prev	mrt.h	/^	struct pim_nbr_entry 	*prev; \/* link to prev neighbor *\/ $/;"	m	struct:pim_nbr_entry	typeref:struct:pim_nbr_entry::pim_nbr_entry
+prev	mrt.h	/^	struct srcentry *prev;		\/* link to prev entry *\/$/;"	m	struct:srcentry	typeref:struct:srcentry::srcentry
+print_Q	callout.c	/^print_Q()$/;"	f	file:
+print_Q	callout.c	62;"	d	file:
+priority	mrt.h	/^	u_int32			priority; \/* DR Priority *\/$/;"	m	struct:pim_nbr_entry
+priority	mrt.h	/^	u_int8	priority;	\/* RP priority *\/$/;"	m	struct:rp_grp_entry
+priority	pim6_proto.c	/^    u_int32 priority;		\/* SHOULD *\/$/;"	m	struct:pim_hello_options	file:
+priority	rp.h	/^	u_int8 priority;$/;"	m	struct:staticrp
+probetime	cfparse.c	/^	datatimo, regsuptimo, probetime, asserttimo;$/;"	v	file:
+process_cache_miss	route.c	/^process_cache_miss(im)$/;"	f	file:
+process_kernel_call	route.c	/^process_kernel_call()$/;"	f
+process_whole_pkt	route.c	/^process_whole_pkt(buf)$/;"	f	file:
+process_wrong_iif	route.c	/^process_wrong_iif(im)$/;"	f	file:
+progname	main.c	/^char           		*progname;$/;"	v
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+prune_addr_number	mrt.h	/^	u_int16	prune_addr_number;	\/* Number of prune addresses in prune_list*\/$/;"	m	struct:build_jp_message
+prune_list	mrt.h	/^	u_int8 	*prune_list;		\/* working area for prune addresses *\/$/;"	m	struct:build_jp_message
+prune_list_size	mrt.h	/^	u_int32	prune_list_size; 	\/* size of prune_list in bytes *\/	$/;"	m	struct:build_jp_message
+pruned_oifs	mrt.h	/^	if_set pruned_oifs;		\/* The pruned oifs (Prune received) *\/$/;"	m	struct:mrtentry
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+q	trace.h	/^    } q;$/;"	m	struct:tr6_query	typeref:struct:tr6_query::__anon1
+q	trace.h	/^    } q;$/;"	m	struct:tr6_query	typeref:struct:tr6_query::__anon2
+q_time	mld6_proto.h	/^	int q_time;$/;"	m	struct:__anon11
+qid	trace.h	/^	u_int32_t qid : 24;	\/* traceroute query id *\/$/;"	m	struct:tr6_query::__anon1
+qid	trace.h	/^	u_int32_t qid : 24;	\/* traceroute query id *\/$/;"	m	struct:tr6_query::__anon2
+query_groups	mld6_proto.c	/^query_groups(v)$/;"	f
+query_groupsV2	mld6v2_proto.c	/^query_groupsV2(v)$/;"	f
+raopt	mld6.c	/^u_int8_t raopt[IP6OPT_RTALERT_LEN];$/;"	v
+rate_flag	timer.c	/^u_int8          rate_flag;$/;"	v
+ratelimit	config.c	/^    int                 ratelimit;$/;"	m	struct:vifconfig	file:
+rcvcmsgbuf	mld6.c	/^static u_char   		*rcvcmsgbuf = NULL;$/;"	v	file:
+rcvcmsgbufpim	pim6.c	/^static u_char *rcvcmsgbufpim = NULL;$/;"	v	file:
+rcvcmsglen	mld6.c	/^static int			rcvcmsglen;$/;"	v	file:
+rcvcmsglen	pim6.c	/^static int rcvcmsglen;$/;"	v	file:
+rcviov	mld6.c	/^static struct iovec 		rcviov[2];$/;"	v	typeref:struct:iovec	file:
+rcviovpim	pim6.c	/^static struct iovec rcviovpim[2];$/;"	v	typeref:struct:iovec	file:
+rcvmh	mld6.c	/^struct msghdr 		sndmh, rcvmh;$/;"	v	typeref:struct:
+rcvmhpim	pim6.c	/^			rcvmhpim;$/;"	v	typeref:struct:	file:
+receive_pim6_assert	pim6_proto.c	/^receive_pim6_assert(src, dst, pim_message, datalen)$/;"	f
+receive_pim6_bootstrap	pim6_proto.c	/^receive_pim6_bootstrap(src, dst, pim_message, datalen)$/;"	f
+receive_pim6_cand_rp_adv	pim6_proto.c	/^receive_pim6_cand_rp_adv(src, dst, pim_message, datalen)$/;"	f
+receive_pim6_hello	pim6_proto.c	/^receive_pim6_hello(src, pim_message, datalen)$/;"	f
+receive_pim6_join_prune	pim6_proto.c	/^receive_pim6_join_prune(src, dst, pim_message, datalen)$/;"	f
+receive_pim6_register	pim6_proto.c	/^receive_pim6_register(reg_src, reg_dst, pim_message, datalen)$/;"	f
+receive_pim6_register_stop	pim6_proto.c	/^receive_pim6_register_stop(reg_src, reg_dst, pim_message, datalen)$/;"	f
+record_type	mld6v2.h	/^    u_int8          record_type;\/* Multicast Address Record Type *\/$/;"	m	struct:mld_group_record_hdr
+recv_listener_done	mld6_proto.c	/^recv_listener_done(mifi, src, grp)$/;"	f
+recv_listener_report	mld6_proto.c	/^recv_listener_report(mifi, src, grp, mld_version)$/;"	f
+reg_flags	pimd.h	/^    u_int32     reg_flags;$/;"	m	struct:pim_register_
+reg_vif_num	vif.c	/^mifi_t reg_vif_num;		   \/*register interface*\/$/;"	v
+register_input_handler	main.c	/^register_input_handler(fd, func)$/;"	f
+regsuptimo	cfparse.c	/^	datatimo, regsuptimo, probetime, asserttimo;$/;"	v	file:
+regthres_attr	cfparse.c	/^static struct attr_list *rp_attr, *bsr_attr, *grp_prefix, *regthres_attr,$/;"	v	typeref:struct:	file:
+regthres_config	cfparse.c	/^regthres_config()$/;"	f	file:
+remap_grpentry	rp.c	/^remap_grpentry(grpentry_ptr)$/;"	f
+reserved	pimd.h	/^    u_int8      reserved;$/;"	m	struct:pim6_encod_grp_addr_
+reserved	pimd.h	/^    u_int8     reserved;$/;"	m	struct:pim_jp_header_
+restart	main.c	/^restart(i)$/;"	f	file:
+return_jp6_working_buff	pim6_proto.c	/^return_jp6_working_buff(pim_nbr)$/;"	f	file:
+rhlim	trace.h	/^	u_int32_t rhlim : 8;	\/* traceroute response ttl *\/$/;"	m	struct:tr6_query::__anon1
+rhlim	trace.h	/^	u_int32_t rhlim : 8;	\/* traceroute response ttl *\/$/;"	m	struct:tr6_query::__anon2
+routing_socket	netlink.c	/^int routing_socket = -1;$/;"	v
+routing_socket	routesock.c	/^int             routing_socket;$/;"	v
+rp	mrt.h	/^	cand_rp_t *rp;		\/* Pointer to the RP *\/$/;"	m	struct:rp_grp_entry
+rp_attr	cfparse.c	/^static struct attr_list *rp_attr, *bsr_attr, *grp_prefix, *regthres_attr,$/;"	v	typeref:struct:attr_list	file:
+rp_config	cfparse.c	/^rp_config()$/;"	f	file:
+rp_find	rp.c	/^rp_find(rp_address)$/;"	f
+rp_grp_entry	mrt.h	/^typedef struct rp_grp_entry {$/;"	s
+rp_grp_entry_t	mrt.h	/^} rp_grp_entry_t;$/;"	t	typeref:struct:rp_grp_entry
+rp_grp_match	rp.c	/^rp_grp_match(group)$/;"	f
+rp_grp_next	mrt.h	/^	struct rp_grp_entry 	*rp_grp_next;	\/* Next entry for same RP *\/$/;"	m	struct:rp_grp_entry	typeref:struct:rp_grp_entry::rp_grp_entry
+rp_grp_next	mrt.h	/^	struct rp_grp_entry *rp_grp_next;	\/* The rp_grp_entry chain for that RP *\/$/;"	m	struct:cand_rp	typeref:struct:cand_rp::rp_grp_entry
+rp_grp_prev	mrt.h	/^	struct rp_grp_entry 	*rp_grp_prev;	\/* Prev entry for same RP *\/$/;"	m	struct:rp_grp_entry	typeref:struct:rp_grp_entry::rp_grp_entry
+rp_list_join	mrt.h	/^	u_int8 	*rp_list_join;		\/* working area for RP join addresses *\/$/;"	m	struct:build_jp_message
+rp_list_join_number	mrt.h	/^	u_int16	rp_list_join_number;	\/* Number of RP addresses in rp_list_join     *\/$/;"	m	struct:build_jp_message
+rp_list_join_size	mrt.h	/^	u_int32	rp_list_join_size;	\/* size of rp_list_join in bytes *\/$/;"	m	struct:build_jp_message
+rp_list_prune	mrt.h	/^	u_int8 	*rp_list_prune;		\/* working area for RP prune addresses   *\/$/;"	m	struct:build_jp_message
+rp_list_prune_number	mrt.h	/^	u_int16	rp_list_prune_number;	\/* Number of RP addresses in rp_list_prune *\/$/;"	m	struct:build_jp_message
+rp_list_prune_size	mrt.h	/^	u_int32	rp_list_prune_size;	\/* size of rp_list_prune in bytes *\/$/;"	m	struct:build_jp_message
+rp_match	rp.c	/^rp_match(group)$/;"	f
+rp_my_ipv6_hashmask	rp.c	/^struct in6_addr         	rp_my_ipv6_hashmask;$/;"	v	typeref:struct:in6_addr
+rpaddr	mrt.h	/^	struct sockaddr_in6 rpaddr;	\/* The IPv6 address of the RP        *\/$/;"	m	struct:grpentry	typeref:struct:grpentry::sockaddr_in6
+rpaddr	rp.h	/^	struct sockaddr_in6 rpaddr;$/;"	m	struct:staticrp	typeref:struct:staticrp::sockaddr_in6
+rpentry	mrt.h	/^	rpentry_t *rpentry;	\/* Pointer to the RP entry *\/$/;"	m	struct:cand_rp
+rpentry_save	timer.c	/^rpentry_t       rpentry_save;$/;"	v
+rpentry_t	mrt.h	/^typedef srcentry_t rpentry_t;$/;"	t
+rpfctl	vif.h	/^struct rpfctl {$/;"	s
+rpfneighbor	vif.h	/^    struct sockaddr_in6 rpfneighbor;\/* next hop towards the source *\/$/;"	m	struct:rpfctl	typeref:struct:rpfctl::sockaddr_in6
+rpnext	mrt.h	/^	struct grpentry *rpnext;	\/* next grp for the same RP          *\/$/;"	m	struct:grpentry	typeref:struct:grpentry::grpentry
+rpprev	mrt.h	/^	struct grpentry *rpprev;	\/* prev grp for the same RP          *\/$/;"	m	struct:grpentry	typeref:struct:grpentry::grpentry
+rs_timer	mrt.h	/^	u_int16	rs_timer;		\/* Register-Suppression Timer       *\/$/;"	m	struct:mrtentry
+rsrr_cache	mrt.h	/^	struct rsrr_cache   *rsrr_cache;    \/* Used to save RSRR requests for$/;"	m	struct:mrtentry	typeref:struct:mrtentry::rsrr_cache
+rt_metrics	routesock.c	/^struct rt_metrics rt_metrics;$/;"	v	typeref:struct:rt_metrics
+rtalert_code	mld6.c	/^static u_int16_t rtalert_code;$/;"	v	file:
+rtm	routesock.c	252;"	d	file:
+rtm	routesock.c	295;"	d	file:
+rtm_addrs	routesock.c	/^int             rtm_addrs,$/;"	v
+rtm_inits	routesock.c	/^u_long          rtm_inits;$/;"	v
+s	mld6_proto.h	/^	struct listaddr *s;$/;"	m	struct:__anon11	typeref:struct:__anon11::listaddr
+sa	routesock.c	/^    struct sockaddr sa;$/;"	m	union:sockunion	typeref:struct:sockunion::sockaddr	file:
+sa6_fmt	inet6.c	/^sa6_fmt(struct sockaddr_in6 *sa6)$/;"	f
+sbin_PROGRAMS	Makefile	/^sbin_PROGRAMS = pim6sd$(EXEEXT)$/;"	m
+sbin_SCRIPTS	Makefile	/^sbin_SCRIPTS = pim6stat$/;"	m
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sdl	routesock.c	/^    struct sockaddr_dl sdl;$/;"	m	union:sockunion	typeref:struct:sockunion::sockaddr_dl	file:
+search_grplist	mrt.c	/^search_grplist(group, groupEntry)$/;"	f	file:
+search_grpmrtlink	mrt.c	/^search_grpmrtlink(grpentry_ptr, source, mrtPtr)$/;"	f	file:
+search_srclist	mrt.c	/^search_srclist(source, sourceEntry)$/;"	f	file:
+search_srcmrtlink	mrt.c	/^search_srcmrtlink(srcentry_ptr, group, mrtPtr)$/;"	f	file:
+sec2str	debug.c	/^sec2str(total)$/;"	f	file:
+segmented_cand_rp_list	rp.c	/^cand_rp_t      			*segmented_cand_rp_list;$/;"	v
+segmented_grp_mask_list	rp.c	/^grp_mask_t     			*segmented_grp_mask_list;$/;"	v
+send_jp6_message	pim6_proto.c	/^send_jp6_message(pim_nbr)$/;"	f	file:
+send_mld6	mld6.c	/^send_mld6(type, code, src, dst, group, index, delay, datalen, alert)$/;"	f
+send_mld6v2	mld6v2.c	/^send_mld6v2(int type, int code, struct sockaddr_in6 *src,$/;"	f
+send_periodic_pim6_join_prune	pim6_proto.c	/^send_periodic_pim6_join_prune(mifi, pim_nbr, holdtime)$/;"	f
+send_pim6	pim6.c	/^send_pim6(char *buf, struct sockaddr_in6 *src,$/;"	f
+send_pim6_assert	pim6_proto.c	/^send_pim6_assert(source, group, mifi, mrtentry_ptr)$/;"	f
+send_pim6_bootstrap	pim6_proto.c	/^send_pim6_bootstrap()$/;"	f
+send_pim6_cand_rp_adv	pim6_proto.c	/^send_pim6_cand_rp_adv()$/;"	f
+send_pim6_hello	pim6_proto.c	/^send_pim6_hello(v, holdtime)$/;"	f
+send_pim6_null_register	pim6_proto.c	/^send_pim6_null_register(mrtentry_ptr)$/;"	f
+send_pim6_register	pim6_proto.c	/^send_pim6_register(pkt)$/;"	f
+send_pim6_register_stop	pim6_proto.c	/^send_pim6_register_stop(reg_src, reg_dst, inner_grp, inner_src)$/;"	f	file:
+seq	netlink.c	/^static __u32 seq;$/;"	v	file:
+set_incoming	route.c	/^set_incoming(srcentry_ptr, srctype)$/;"	f
+set_param	cfparse.c	110;"	d	file:
+set_pim6_nbr_param	pim6_proto.c	/^set_pim6_nbr_param(nbr, opts)$/;"	f	file:
+sg_count	mrt.h	/^	struct sg_count sg_count;	\/* The (s,g) data related counters *\/$/;"	m	struct:kernel_cache	typeref:struct:kernel_cache::sg_count
+sg_count	mrt.h	/^struct sg_count {$/;"	s
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+short	cfparse.c	326;"	d	file:
+sighandled	main.c	/^static int      	sighandled = 0;$/;"	v	file:
+sin6	routesock.c	/^    struct sockaddr_in6 sin6;$/;"	m	union:sockunion	typeref:struct:sockunion::sockaddr_in6	file:
+sndcmsgbuf	mld6.c	/^char *sndcmsgbuf;$/;"	v
+sndcmsgbufpim	pim6.c	/^static u_char *sndcmsgbufpim = NULL;$/;"	v	file:
+sndcmsglen	pim6.c	/^static int sndcmsglen;$/;"	v	file:
+sndiov	mld6.c	/^struct iovec 		sndiov[2];$/;"	v	typeref:struct:iovec
+sndiovpim	pim6.c	/^static struct iovec sndiovpim[2];$/;"	v	typeref:struct:iovec	file:
+sndmh	mld6.c	/^struct msghdr 		sndmh, rcvmh;$/;"	v	typeref:struct:msghdr
+sndmhpim	pim6.c	/^static struct msghdr 	sndmhpim,$/;"	v	typeref:struct:msghdr	file:
+so_dst	routesock.c	/^}               so_dst, so_ifp;$/;"	v	typeref:union:sockunion
+so_ifp	routesock.c	/^}               so_dst, so_ifp;$/;"	v	typeref:union:sockunion
+sockaddr6_any	pim6_proto.c	/^struct sockaddr_in6 sockaddr6_any;$/;"	v	typeref:struct:sockaddr_in6
+sockaddr6_d	pim6_proto.c	/^struct sockaddr_in6 sockaddr6_d;$/;"	v	typeref:struct:sockaddr_in6
+sockunion	routesock.c	/^union sockunion$/;"	u	file:
+source	mrt.h	/^	struct sockaddr_in6 source;$/;"	m	struct:kernel_cache	typeref:struct:kernel_cache::sockaddr_in6
+source	mrt.h	/^	struct srcentry *source;	\/* pointer to source entry (or RP)  *\/$/;"	m	struct:mrtentry	typeref:struct:mrtentry::srcentry
+source	vif.h	/^    struct sockaddr_in6 source; \/* the source for which we want iif and rpfnbr *\/$/;"	m	struct:rpfctl	typeref:struct:rpfctl::sockaddr_in6
+sources	vif.h	/^	struct listaddr *sources; \/* list of sources for this group *\/$/;"	m	struct:listaddr	typeref:struct:listaddr::listaddr
+src	mld6v2.h	/^    struct in6_addr src[1];	\/* Sources Addresses List *\/$/;"	m	struct:mld_group_record_hdr	typeref:struct:mld_group_record_hdr::in6_addr
+src_addr	pimd.h	/^    struct in6_addr src_addr;$/;"	m	struct:pim6_encod_src_addr_	typeref:struct:pim6_encod_src_addr_::in6_addr
+srcdir	Makefile	/^srcdir = .$/;"	m
+srcentry	mrt.h	/^typedef struct srcentry {$/;"	s
+srcentry_save	timer.c	/^srcentry_t      srcentry_save;$/;"	v
+srcentry_t	mrt.h	/^} srcentry_t;$/;"	t	typeref:struct:srcentry
+srclist	mrt.c	/^srcentry_t     *srclist;$/;"	v
+srcmetric	cfparse.c	/^static int srcmetric, srcpref, helloperiod, jpperiod, granularity,$/;"	v	file:
+srcnext	mrt.h	/^	struct mrtentry *srcnext;	\/* next entry of same source        *\/$/;"	m	struct:mrtentry	typeref:struct:mrtentry::mrtentry
+srcpref	cfparse.c	/^static int srcmetric, srcpref, helloperiod, jpperiod, granularity,$/;"	v	file:
+srcprev	mrt.h	/^	struct mrtentry *srcprev;	\/* prev entry of same source        *\/$/;"	m	struct:mrtentry	typeref:struct:mrtentry::mrtentry
+ssmmask	pim6.c	/^struct in6_addr ssmmask;$/;"	v	typeref:struct:in6_addr
+ssmprefix	pim6.c	/^struct sockaddr_in6 ssmprefix;$/;"	v	typeref:struct:sockaddr_in6
+start_all_vifs	vif.c	/^void start_all_vifs()$/;"	f
+start_vif	vif.c	/^void start_vif (mifi_t vifi)$/;"	f
+state	config.c	/^    short               state;$/;"	m	struct:vifconfig	file:
+statfilename	debug.c	/^static char	statfilename[] = _PATH_PIM6D_STAT;$/;"	v	file:
+static_rp	cfparse.c	/^	*datathres_attr, *static_rp, *static_rt;$/;"	v	typeref:struct:	file:
+static_rp_config	cfparse.c	/^static_rp_config()$/;"	f	file:
+static_rp_flag	rp.c	/^u_int8          		static_rp_flag;$/;"	v
+static_rt	cfparse.c	/^	*datathres_attr, *static_rp, *static_rt;$/;"	v	typeref:struct:	file:
+static_rt_config	cfparse.c	/^static_rt_config()$/;"	f	file:
+staticrp	cfparse.c	/^		struct staticrp staticrp;$/;"	m	union:attr_list::__anon9	typeref:struct:attr_list::__anon9::staticrp	file:
+staticrp	rp.h	/^struct staticrp {$/;"	s
+staticrt	cfparse.c	/^		struct staticrt staticrt;$/;"	m	union:attr_list::__anon9	typeref:struct:attr_list::__anon9::staticrt	file:
+staticrt	routesock.h	/^struct staticrt {$/;"	s
+staticrt_head	routesock.c	/^static struct staticrt_list staticrt_head;$/;"	v	typeref:struct:staticrt_list	file:
+stop_all_vifs	vif.c	/^stop_all_vifs()$/;"	f
+stop_vif	vif.c	/^stop_vif(mifi_t vifi)$/;"	f
+strict	cfparse.c	/^static int strict;		\/* flag if the grammer check is strict *\/$/;"	v	file:
+subdir	Makefile	/^subdir = pim6sd$/;"	m
+sup	routesock.c	/^typedef union sockunion *sup;$/;"	t	typeref:union:sockunion	file:
+switch_shortest_path	route.c	/^switch_shortest_path(source, group)$/;"	f
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+t	vmbuf.h	/^	u_int32_t t;	\/* type of the value *\/$/;"	m	struct:_vchar_
+target_alias	Makefile	/^target_alias = $/;"	m
+threshold	config.c	/^    int                 threshold;$/;"	m	struct:vifconfig	file:
+time	callout.c	/^    int             time;	\/* time offset to next event *\/$/;"	m	struct:timeout_q	file:
+timeout_q	callout.c	/^struct timeout_q$/;"	s	file:
+timer	main.c	/^timer(i)$/;"	f	file:
+timer	mrt.h	/^	u_int16	timer;			\/* entry timer                      *\/$/;"	m	struct:mrtentry
+timer	mrt.h	/^	u_int16	timer;		\/* Entry timer??? Delete?    *\/	$/;"	m	struct:srcentry
+timer	mrt.h	/^	u_int16 		timer; 	\/* for timing out neighbor *\/$/;"	m	struct:pim_nbr_entry
+timer_clearTimer	callout.c	/^timer_clearTimer(timer_id)$/;"	f
+timer_interval	timer.c	/^u_int32 		timer_interval=DEFAULT_TIMER_INTERVAL;$/;"	v
+timer_leftTimer	callout.c	/^timer_leftTimer(timer_id)$/;"	f
+timer_nextTimer	callout.c	/^timer_nextTimer()$/;"	f
+timer_setTimer	callout.c	/^timer_setTimer(delay, action, data)$/;"	f
+todaysversion	vers.c	/^char todaysversion[]="2.1.0-alpha23";$/;"	v
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+total_interfaces	vif.c	/^int total_interfaces;$/;"	v
+tr6_query	trace.h	/^struct tr6_query {$/;"	s
+tr6_resp	trace.h	/^struct tr6_resp {$/;"	s
+tr_dst	trace.h	/^    struct in6_addr  tr_dst;		\/* traceroute destination *\/$/;"	m	struct:tr6_query	typeref:struct:tr6_query::in6_addr
+tr_flags	trace.h	/^	u_char	tr_flags;	\/* flags *\/$/;"	m	struct:tr6_resp
+tr_inifid	trace.h	/^	u_int32_t tr_inifid;	\/* incoming interface identifier *\/$/;"	m	struct:tr6_resp
+tr_lcladdr	trace.h	/^	struct in6_addr tr_lcladdr; \/* router's address(must have largest scope) *\/$/;"	m	struct:tr6_resp	typeref:struct:tr6_resp::in6_addr
+tr_outifid	trace.h	/^	u_int32_t tr_outifid;	\/* outgoing interface identifier *\/$/;"	m	struct:tr6_resp
+tr_pktcnt	trace.h	/^	u_int32_t tr_pktcnt;	\/* total incoming packets for src-grp *\/$/;"	m	struct:tr6_resp
+tr_plen	trace.h	/^	u_char  tr_plen;	\/* prefix length for src addr *\/$/;"	m	struct:tr6_resp
+tr_qarr	trace.h	/^	u_int32_t tr_qarr;	\/* query arrival time *\/$/;"	m	struct:tr6_resp
+tr_qid	trace.h	94;"	d
+tr_raddr	trace.h	/^    struct in6_addr  tr_raddr;		\/* traceroute response address *\/$/;"	m	struct:tr6_query	typeref:struct:tr6_query::in6_addr
+tr_rflags	trace.h	/^	u_char  tr_rflags;	\/* forwarding error codes *\/$/;"	m	struct:tr6_resp
+tr_rhlim	trace.h	93;"	d
+tr_rmtaddr	trace.h	/^	struct in6_addr tr_rmtaddr; \/* parent address in source tree *\/$/;"	m	struct:tr6_resp	typeref:struct:tr6_resp::in6_addr
+tr_rproto	trace.h	/^	u_char  tr_rproto;	\/* routing protocol deployed on router *\/$/;"	m	struct:tr6_resp
+tr_src	trace.h	/^    struct in6_addr  tr_src;		\/* traceroute source *\/$/;"	m	struct:tr6_query	typeref:struct:tr6_query::in6_addr
+tr_vifin	trace.h	/^	u_int32_t tr_vifin;	\/* input packet count on interface *\/$/;"	m	struct:tr6_resp
+tr_vifout	trace.h	/^	u_int32_t tr_vifout;	\/* output packet count on interface *\/$/;"	m	struct:tr6_resp
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+type	cfparse.c	/^	int type;$/;"	m	struct:attr_list	file:
+u_int16	defs.h	/^typedef u_int16_t	u_int16;$/;"	t
+u_int32	defs.h	/^typedef u_int32_t	u_int32;$/;"	t
+u_int8	defs.h	/^typedef u_int8_t	u_int8;$/;"	t
+ucast_flag	timer.c	/^u_int8          ucast_flag;		\/* Used to indicate there was a timeout *\/$/;"	v
+udp_socket	vif.c	/^int udp_socket;$/;"	v
+unicast_addr	pimd.h	/^    struct in6_addr unicast_addr;    \/* XXX: Note the 32-bit boundary$/;"	m	struct:pim6_encod_uni_addr_	typeref:struct:pim6_encod_uni_addr_::in6_addr
+unicast_routing_check_interval	timer.c	/^u_int16         unicast_routing_check_interval;$/;"	v
+unicast_routing_timer	timer.c	/^u_int16         unicast_routing_timer;	\/* Used to check periodically for any$/;"	v
+unput	cftoken.c	189;"	d	file:
+update_crc	crc.c	/^static unsigned long update_crc(unsigned long crc, unsigned char *buf,$/;"	f	file:
+update_reg_vif	vif.c	/^update_reg_vif( mifi_t register_vifi )$/;"	f
+update_rp_neighbor	rp.c	/^update_rp_neighbor()$/;"	f
+uph	pim6.c	/^} uph;$/;"	v	typeref:union:__anon3	file:
+upstream	mrt.h	/^	struct pim_nbr_entry *upstream;	\/* upstream router *\/$/;"	m	struct:srcentry	typeref:struct:srcentry::pim_nbr_entry
+upstream	mrt.h	/^	struct pim_nbr_entry *upstream;	\/* upstream router, needed because of$/;"	m	struct:mrtentry	typeref:struct:mrtentry::pim_nbr_entry
+uv_acl	vif.h	/^	struct vif_acl *uv_acl;	\/* access control list of groups *\/$/;"	m	struct:uvif	typeref:struct:uvif::vif_acl
+uv_addrs	vif.h	/^	struct phaddr *uv_addrs; \/* Additional addresses on this vif *\/$/;"	m	struct:uvif	typeref:struct:uvif::phaddr
+uv_admetric	vif.h	/^	u_char uv_admetric;		\/* advertised cost of this vif *\/$/;"	m	struct:uvif
+uv_cache_miss	vif.h	/^	u_quad_t uv_cache_miss;$/;"	m	struct:uvif
+uv_cache_notcreated	vif.h	/^	u_quad_t uv_cache_notcreated;$/;"	m	struct:uvif
+uv_dst_addr	vif.h	/^	struct sockaddr_in6 uv_dst_addr;\/* destination for PIM messages *\/$/;"	m	struct:uvif	typeref:struct:uvif::sockaddr_in6
+uv_dvmrp_neighbors	vif.h	/^	struct lisaddr *uv_dvmrp_neighbors;$/;"	m	struct:uvif	typeref:struct:uvif::lisaddr
+uv_flags	vif.h	/^	u_int uv_flags;		$/;"	m	struct:uvif
+uv_genid	vif.h	/^	u_int32 uv_genid;	\/* PIM GenID *\/$/;"	m	struct:uvif
+uv_global	vif.c	/^uv_global(vifi)$/;"	f
+uv_gq_timer	vif.h	/^	u_int16	uv_gq_timer;	\/* Group Query timer *\/$/;"	m	struct:uvif
+uv_groups	vif.h	/^	struct listaddr *uv_groups; \/* list of local groups  (phyints only) *\/$/;"	m	struct:uvif	typeref:struct:uvif::listaddr
+uv_ifindex	vif.h	/^	u_int uv_ifindex;	\/* index of the interface *\/$/;"	m	struct:uvif
+uv_in_mld_done	vif.h	/^	u_quad_t uv_in_mld_done;$/;"	m	struct:uvif
+uv_in_mld_query	vif.h	/^	u_quad_t uv_in_mld_query;$/;"	m	struct:uvif
+uv_in_mld_report	vif.h	/^	u_quad_t uv_in_mld_report;$/;"	m	struct:uvif
+uv_in_pim6_assert	vif.h	/^	u_quad_t uv_in_pim6_assert;$/;"	m	struct:uvif
+uv_in_pim6_bootsrap	vif.h	/^	u_quad_t uv_in_pim6_bootsrap;$/;"	m	struct:uvif
+uv_in_pim6_hello	vif.h	/^	u_quad_t uv_in_pim6_hello;$/;"	m	struct:uvif
+uv_in_pim6_join_prune	vif.h	/^	u_quad_t uv_in_pim6_join_prune;$/;"	m	struct:uvif
+uv_jp_timer	vif.h	/^	u_int16	uv_jp_timer;	\/* Join\/Prune timer *\/$/;"	m	struct:uvif
+uv_leaftimer	vif.h	/^	int uv_leaftimer;	\/* time until this vif is considrd leaf *\/$/;"	m	struct:uvif
+uv_linklocal	vif.h	/^	struct phaddr *uv_linklocal;	\/* link-local address of this vif *\/$/;"	m	struct:uvif	typeref:struct:uvif::phaddr
+uv_listener_timo	vif.h	/^	u_quad_t uv_listener_timo;$/;"	m	struct:uvif
+uv_local_metric	vif.h	/^	int uv_local_metric;	\/* default local metric for assert *\/$/;"	m	struct:uvif
+uv_local_pref	vif.h	/^	int uv_local_pref;	\/* default local preference for assert *\/$/;"	m	struct:uvif
+uv_metric	vif.h	/^	u_char uv_metric;		\/* VIFF_ flags defined below *\/$/;"	m	struct:uvif
+uv_mld_llqi	vif.h	/^	u_int32 uv_mld_llqi; \/* last listener query interval *\/$/;"	m	struct:uvif
+uv_mld_query_interval	vif.h	/^	u_int32 uv_mld_query_interval; \/* query interval of this vif (mld6 protocol) *\/$/;"	m	struct:uvif
+uv_mld_query_rsp_interval	vif.h	/^	u_int32 uv_mld_query_rsp_interval;  \/* query response interval of this vif (mld6 protocol) *\/$/;"	m	struct:uvif
+uv_mld_robustness	vif.h	/^	u_int16 uv_mld_robustness; \/* robustness variable of this vif (mld6 protocol) *\/$/;"	m	struct:uvif
+uv_mld_version	vif.h	/^	u_int16 uv_mld_version;	\/* mld version of this mif *\/$/;"	m	struct:uvif
+uv_name	vif.h	/^	char uv_name[IFNAMSIZ];	\/* interface name *\/$/;"	m	struct:uvif
+uv_nbrmap	vif.h	/^	nbrbitmap_t uv_nbrmap;	\/* bitmap of active neighboring routers *\/$/;"	m	struct:uvif
+uv_out_mld_done	vif.h	/^	u_quad_t uv_out_mld_done;$/;"	m	struct:uvif
+uv_out_mld_query	vif.h	/^	u_quad_t uv_out_mld_query;$/;"	m	struct:uvif
+uv_out_mld_report	vif.h	/^	u_quad_t uv_out_mld_report;$/;"	m	struct:uvif
+uv_out_pim6_assert	vif.h	/^	u_quad_t uv_out_pim6_assert;$/;"	m	struct:uvif
+uv_out_pim6_bootsrap	vif.h	/^	u_quad_t uv_out_pim6_bootsrap;$/;"	m	struct:uvif
+uv_out_pim6_hello	vif.h	/^	u_quad_t uv_out_pim6_hello;$/;"	m	struct:uvif
+uv_out_pim6_join_prune	vif.h	/^	u_quad_t uv_out_pim6_join_prune;$/;"	m	struct:uvif
+uv_outif_timo	vif.h	/^	u_quad_t uv_outif_timo;	\/* outgoing interfaces timers *\/$/;"	m	struct:uvif
+uv_pim6_nbr_timo	vif.h	/^	u_quad_t uv_pim6_nbr_timo;$/;"	m	struct:uvif
+uv_pim_dr	vif.h	/^	struct pim_nbr_entry *uv_pim_dr;	\/* the current DR *\/$/;"	m	struct:uvif	typeref:struct:uvif::pim_nbr_entry
+uv_pim_hello_timer	vif.h	/^	u_int16 uv_pim_hello_timer; \/* timer for sending PIM hello msgs *\/$/;"	m	struct:uvif
+uv_pim_neighbors	vif.h	/^	struct pim_nbr_entry *uv_pim_neighbors;	\/* list of PIM nbr routers *\/$/;"	m	struct:uvif	typeref:struct:uvif::pim_nbr_entry
+uv_prefix	vif.h	/^	struct sockaddr_in6 uv_prefix;	\/* prefix (phyints only) *\/$/;"	m	struct:uvif	typeref:struct:uvif::sockaddr_in6
+uv_priority	vif.h	/^	u_int32 uv_priority;	\/* PIM DR Priority *\/$/;"	m	struct:uvif
+uv_prune_lifetime	vif.h	/^	int uv_prune_lifetime;	\/* Prune lifetime or 0 for default  *\/$/;"	m	struct:uvif
+uv_querier	vif.h	/^	struct listaddr	*uv_querier; \/* MLD querier on vif *\/$/;"	m	struct:uvif	typeref:struct:uvif::listaddr
+uv_querier_timo	vif.h	/^	u_quad_t uv_querier_timo;$/;"	m	struct:uvif
+uv_rate_limit	vif.h	/^	u_int uv_rate_limit;		\/* rate limit on this vif *\/$/;"	m	struct:uvif
+uv_rmt_addr	vif.h	/^	struct sockaddr_in6 uv_rmt_addr;\/* remote end-point addr (tunnels only)*\/$/;"	m	struct:uvif	typeref:struct:uvif::sockaddr_in6
+uv_stquery_cnt	vif.h	/^	u_int16 uv_stquery_cnt;	\/* Startup Query Count *\/$/;"	m	struct:uvif
+uv_subnetmask	vif.h	/^	struct in6_addr	uv_subnetmask;	\/* subnet mask (phyints only) *\/$/;"	m	struct:uvif	typeref:struct:uvif::in6_addr
+uvfilter	vif.h	/^	struct vif_filter *uvfilter; \/* Route filters on this vif *\/$/;"	m	struct:uvif	typeref:struct:uvif::vif_filter
+uvif	vif.h	/^struct uvif {$/;"	s
+uvifs	vif.c	/^struct uvif	uvifs[MAXMIFS];	\/*the list of virtualsinterfaces *\/$/;"	v	typeref:struct:uvif
+v	vmbuf.h	/^	caddr_t v;	\/* place holder to the value in buffer *\/$/;"	m	struct:_vchar_
+val	cfparse.c	/^	vchar_t val;$/;"	m	union:YYSTYPE	file:
+val	cfparse.h	/^	vchar_t val;$/;"	m	union:YYSTYPE
+vchar_t	vmbuf.h	/^} vchar_t;$/;"	t	typeref:struct:_vchar_
+versionstring	main.c	/^char            	versionstring[100];$/;"	v
+vf_element	vif.h	/^struct vf_element {$/;"	s
+vf_filter	vif.h	/^	struct vf_element 	*vf_filter;$/;"	m	struct:vif_filter	typeref:struct:vif_filter::vf_element
+vf_flags	vif.h	/^	int 				vf_flags;$/;"	m	struct:vif_filter
+vf_type	vif.h	/^	int 				vf_type;$/;"	m	struct:vif_filter
+vfe_addr	vif.h	/^	struct sockaddr_in6 		*vfe_addr;$/;"	m	struct:vf_element	typeref:struct:vf_element::sockaddr_in6
+vfe_flags	vif.h	/^	int							vfe_flags;$/;"	m	struct:vf_element
+vfe_mask	vif.h	/^	struct in6_addr 			vfe_mask;$/;"	m	struct:vf_element	typeref:struct:vf_element::in6_addr
+vfe_next	vif.h	/^	struct vf_element 			*vfe_next;$/;"	m	struct:vf_element	typeref:struct:vf_element::vf_element
+vif_acl	vif.h	/^struct vif_acl {$/;"	s
+vif_and	vif.c	/^vif_and(if_set *p1 , if_set *p2, if_set *result)$/;"	f
+vif_count	mrt.h	/^struct vif_count {$/;"	s
+vif_deletion_delay	mrt.h	/^	u_int16	*vif_deletion_delay;	\/* vifs deletion delay list    *\/$/;"	m	struct:mrtentry
+vif_filter	vif.h	/^struct vif_filter {$/;"	s
+vif_forwarder	vif.c	/^vif_forwarder(if_set *p1 , if_set *p2)$/;"	f
+vif_timers	mrt.h	/^	u_int16 *vif_timers;	 	\/* vifs timer list                  *\/	$/;"	m	struct:mrtentry
+vif_xor	vif.c	/^vif_xor(if_set *p1 , if_set *p2, if_set *result)$/;"	f
+vifconf	config.c	/^struct vifconfig*   vifconf;$/;"	v	typeref:struct:vifconfig
+vifconfig	config.c	/^struct vifconfig {$/;"	s	file:
+vifi	mrt.h	/^	mifi_t 			vifi;   \/* which interface *\/$/;"	m	struct:pim_nbr_entry
+vifs_down	vif.c	/^int vifs_down;$/;"	v
+virtual_time	main.c	/^u_long          virtual_time = 0;$/;"	v
+wrong_if	mrt.h	/^	u_quad_t wrong_if;	\/*  Number of packets received on wrong iif for (s,g) *\/	$/;"	m	struct:sg_count
+yy_accept	cftoken.c	/^static yyconst flex_int16_t yy_accept[764] =$/;"	v	file:
+yy_at_bol	cftoken.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_base	cftoken.c	/^static yyconst flex_int16_t yy_base[772] =$/;"	v	file:
+yy_bs_column	cftoken.c	/^    int yy_bs_column; \/**< The column count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_bs_lineno	cftoken.c	/^    int yy_bs_lineno; \/**< The line count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_pos	cftoken.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	cftoken.c	/^	yy_size_t yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_stack	cftoken.c	/^static YY_BUFFER_STATE * yy_buffer_stack = 0; \/**< Stack as an array. *\/$/;"	v	file:
+yy_buffer_stack_max	cftoken.c	/^static size_t yy_buffer_stack_max = 0; \/**< capacity of stack. *\/$/;"	v	file:
+yy_buffer_stack_top	cftoken.c	/^static size_t yy_buffer_stack_top = 0; \/**< index of top of stack. *\/$/;"	v	file:
+yy_buffer_state	cftoken.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	cftoken.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	cftoken.c	/^static char *yy_c_buf_p = (char *) 0;$/;"	v	file:
+yy_ch_buf	cftoken.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_chk	cftoken.c	/^static yyconst flex_int16_t yy_chk[1112] =$/;"	v	file:
+yy_create_buffer	cftoken.c	/^    YY_BUFFER_STATE yy_create_buffer  (FILE * file, int  size )$/;"	f
+yy_def	cftoken.c	/^static yyconst flex_int16_t yy_def[772] =$/;"	v	file:
+yy_delete_buffer	cftoken.c	/^    void yy_delete_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_did_buffer_switch_on_eof	cftoken.c	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_ec	cftoken.c	/^static yyconst flex_int32_t yy_ec[256] =$/;"	v	file:
+yy_fatal_error	cftoken.c	/^static void yy_fatal_error (yyconst char* msg )$/;"	f	file:
+yy_fill_buffer	cftoken.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_first_time	cftoken.c	/^int yy_first_time = 1;$/;"	v
+yy_flex_debug	cftoken.c	/^int yy_flex_debug = 0;$/;"	v
+yy_flex_strlen	cftoken.c	/^static int yy_flex_strlen (yyconst char * s )$/;"	f	file:
+yy_flex_strncpy	cftoken.c	/^static void yy_flex_strncpy (char* s1, yyconst char * s2, int n )$/;"	f	file:
+yy_flush_buffer	cftoken.c	/^    void yy_flush_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_get_next_buffer	cftoken.c	/^static int yy_get_next_buffer (void)$/;"	f	file:
+yy_get_previous_state	cftoken.c	/^    static yy_state_type yy_get_previous_state (void)$/;"	f	file:
+yy_hold_char	cftoken.c	/^static char yy_hold_char;$/;"	v	file:
+yy_init	cftoken.c	/^static int yy_init = 0;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_init_buffer	cftoken.c	/^    static void yy_init_buffer  (YY_BUFFER_STATE  b, FILE * file )$/;"	f	file:
+yy_init_globals	cftoken.c	/^static int yy_init_globals (void)$/;"	f	file:
+yy_input_file	cftoken.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	cftoken.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	cftoken.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_last_accepting_cpos	cftoken.c	/^static char *yy_last_accepting_cpos;$/;"	v	file:
+yy_last_accepting_state	cftoken.c	/^static yy_state_type yy_last_accepting_state;$/;"	v	file:
+yy_load_buffer_state	cftoken.c	/^static void yy_load_buffer_state  (void)$/;"	f	file:
+yy_meta	cftoken.c	/^static yyconst flex_int32_t yy_meta[44] =$/;"	v	file:
+yy_n_chars	cftoken.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	cftoken.c	/^static int yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_new_buffer	cftoken.c	318;"	d	file:
+yy_nxt	cftoken.c	/^	flex_int32_t yy_nxt;$/;"	m	struct:yy_trans_info	file:
+yy_nxt	cftoken.c	/^static yyconst flex_int16_t yy_nxt[1112] =$/;"	v	file:
+yy_reduce_print	cfparse.c	/^yy_reduce_print (YYSTYPE *yyvsp, int yyrule)$/;"	f	file:
+yy_scan_buffer	cftoken.c	/^YY_BUFFER_STATE yy_scan_buffer  (char * base, yy_size_t  size )$/;"	f
+yy_scan_bytes	cftoken.c	/^YY_BUFFER_STATE yy_scan_bytes  (yyconst char * yybytes, int  _yybytes_len )$/;"	f
+yy_scan_string	cftoken.c	/^YY_BUFFER_STATE yy_scan_string (yyconst char * yystr )$/;"	f
+yy_set_bol	cftoken.c	330;"	d	file:
+yy_set_interactive	cftoken.c	320;"	d	file:
+yy_size_t	cftoken.c	/^typedef size_t yy_size_t;$/;"	t	file:
+yy_stack_print	cfparse.c	/^yy_stack_print (yytype_int16 *yybottom, yytype_int16 *yytop)$/;"	f	file:
+yy_start	cftoken.c	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_state_type	cftoken.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_switch_to_buffer	cftoken.c	/^    void yy_switch_to_buffer  (YY_BUFFER_STATE  new_buffer )$/;"	f
+yy_symbol_print	cfparse.c	/^yy_symbol_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_symbol_value_print	cfparse.c	/^yy_symbol_value_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_trans_info	cftoken.c	/^struct yy_trans_info$/;"	s	file:
+yy_try_NUL_trans	cftoken.c	/^    static yy_state_type yy_try_NUL_trans  (yy_state_type yy_current_state )$/;"	f	file:
+yy_verify	cftoken.c	/^	flex_int32_t yy_verify;$/;"	m	struct:yy_trans_info	file:
+yyalloc	cfparse.c	/^union yyalloc$/;"	u	file:
+yyalloc	cftoken.c	/^void *yyalloc (yy_size_t  size )$/;"	f
+yychar	cfparse.c	/^int yychar;$/;"	v
+yycheck	cfparse.c	/^static const yytype_int8 yycheck[] =$/;"	v	file:
+yyclearin	cfparse.c	832;"	d	file:
+yyconst	cftoken.c	107;"	d	file:
+yyconst	cftoken.c	109;"	d	file:
+yydebug	cfparse.c	/^int yydebug;$/;"	v
+yydefact	cfparse.c	/^static const yytype_uint8 yydefact[] =$/;"	v	file:
+yydefgoto	cfparse.c	/^static const yytype_int16 yydefgoto[] =$/;"	v	file:
+yydestruct	cfparse.c	/^yydestruct (const char *yymsg, int yytype, YYSTYPE *yyvaluep)$/;"	f	file:
+yyensure_buffer_stack	cftoken.c	/^static void yyensure_buffer_stack (void)$/;"	f	file:
+yyerrok	cfparse.c	831;"	d	file:
+yyerror	cftoken.c	/^yyerror(char *s, ...)$/;"	f
+yyerror0	cftoken.c	/^yyerror0(char *s, va_list ap)$/;"	f	file:
+yyerrorcount	cftoken.c	/^static int yyerrorcount = 0;$/;"	v	file:
+yyfree	cftoken.c	/^void yyfree (void * ptr )$/;"	f
+yyget_debug	cftoken.c	/^int yyget_debug  (void)$/;"	f
+yyget_in	cftoken.c	/^FILE *yyget_in  (void)$/;"	f
+yyget_leng	cftoken.c	/^int yyget_leng  (void)$/;"	f
+yyget_lineno	cftoken.c	/^int yyget_lineno  (void)$/;"	f
+yyget_out	cftoken.c	/^FILE *yyget_out  (void)$/;"	f
+yyget_text	cftoken.c	/^char *yyget_text  (void)$/;"	f
+yyin	cftoken.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyinput	cftoken.c	/^    static int yyinput (void)$/;"	f	file:
+yyleng	cftoken.c	/^int yyleng;$/;"	v
+yyless	cftoken.c	176;"	d	file:
+yyless	cftoken.c	3119;"	d	file:
+yyless	cftoken.c	3120;"	d	file:
+yylex_destroy	cftoken.c	/^int yylex_destroy  (void)$/;"	f
+yylineno	cftoken.c	/^int yylineno = 1;$/;"	v
+yylval	cfparse.c	/^YYSTYPE yylval;$/;"	v
+yymore	cftoken.c	952;"	d	file:
+yynerrs	cfparse.c	/^int yynerrs;$/;"	v
+yyout	cftoken.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yypact	cfparse.c	/^static const yytype_int8 yypact[] =$/;"	v	file:
+yyparse	cfparse.c	/^yyparse (void *YYPARSE_PARAM)$/;"	f
+yypgoto	cfparse.c	/^static const yytype_int8 yypgoto[] =$/;"	v	file:
+yypop_buffer_state	cftoken.c	/^void yypop_buffer_state (void)$/;"	f
+yyprhs	cfparse.c	/^static const yytype_uint8 yyprhs[] =$/;"	v	file:
+yypush_buffer_state	cftoken.c	/^void yypush_buffer_state (YY_BUFFER_STATE new_buffer )$/;"	f
+yyr1	cfparse.c	/^static const yytype_uint8 yyr1[] =$/;"	v	file:
+yyr2	cfparse.c	/^static const yytype_uint8 yyr2[] =$/;"	v	file:
+yyrealloc	cftoken.c	/^void *yyrealloc  (void * ptr, yy_size_t  size )$/;"	f
+yyrestart	cftoken.c	/^    void yyrestart  (FILE * input_file )$/;"	f
+yyrhs	cfparse.c	/^static const yytype_int8 yyrhs[] =$/;"	v	file:
+yyrline	cfparse.c	/^static const yytype_uint16 yyrline[] =$/;"	v	file:
+yyset_debug	cftoken.c	/^void yyset_debug (int  bdebug )$/;"	f
+yyset_in	cftoken.c	/^void yyset_in (FILE *  in_str )$/;"	f
+yyset_lineno	cftoken.c	/^void yyset_lineno (int  line_number )$/;"	f
+yyset_out	cftoken.c	/^void yyset_out (FILE *  out_str )$/;"	f
+yyss_alloc	cfparse.c	/^  yytype_int16 yyss_alloc;$/;"	m	union:yyalloc	file:
+yystos	cfparse.c	/^static const yytype_uint8 yystos[] =$/;"	v	file:
+yystpcpy	cfparse.c	/^yystpcpy (char *yydest, const char *yysrc)$/;"	f	file:
+yystpcpy	cfparse.c	1130;"	d	file:
+yystrlen	cfparse.c	/^yystrlen (const char *yystr)$/;"	f	file:
+yystrlen	cfparse.c	1107;"	d	file:
+yystype	cfparse.c	314;"	d	file:
+yystype	cfparse.h	157;"	d
+yysyntax_error	cfparse.c	/^yysyntax_error (char *yyresult, int yystate, int yychar)$/;"	f	file:
+yytable	cfparse.c	/^static const yytype_uint8 yytable[] =$/;"	v	file:
+yyterminate	cftoken.c	1181;"	d	file:
+yytext	cftoken.c	/^char *yytext;$/;"	v
+yytext_ptr	cftoken.c	355;"	d	file:
+yytname	cfparse.c	/^static const char *const yytname[] =$/;"	v	file:
+yytnamerr	cfparse.c	/^yytnamerr (char *yyres, const char *yystr)$/;"	f	file:
+yytokentype	cfparse.c	/^   enum yytokentype {$/;"	g	file:
+yytokentype	cfparse.h	/^   enum yytokentype {$/;"	g
+yytoknum	cfparse.c	/^static const yytype_uint16 yytoknum[] =$/;"	v	file:
+yytranslate	cfparse.c	/^static const yytype_uint8 yytranslate[] =$/;"	v	file:
+yytype_int16	cfparse.c	/^typedef YYTYPE_INT16 yytype_int16;$/;"	t	file:
+yytype_int16	cfparse.c	/^typedef short int yytype_int16;$/;"	t	file:
+yytype_int8	cfparse.c	/^typedef YYTYPE_INT8 yytype_int8;$/;"	t	file:
+yytype_int8	cfparse.c	/^typedef short int yytype_int8;$/;"	t	file:
+yytype_int8	cfparse.c	/^typedef signed char yytype_int8;$/;"	t	file:
+yytype_uint16	cfparse.c	/^typedef YYTYPE_UINT16 yytype_uint16;$/;"	t	file:
+yytype_uint16	cfparse.c	/^typedef unsigned short int yytype_uint16;$/;"	t	file:
+yytype_uint8	cfparse.c	/^typedef YYTYPE_UINT8 yytype_uint8;$/;"	t	file:
+yytype_uint8	cfparse.c	/^typedef unsigned char yytype_uint8;$/;"	t	file:
+yyunput	cftoken.c	/^    static void yyunput (int c, register char * yy_bp )$/;"	f	file:
+yyvs_alloc	cfparse.c	/^  YYSTYPE yyvs_alloc;$/;"	m	union:yyalloc	file:
+yywarn	cftoken.c	/^yywarn(char *s, ...)$/;"	f
